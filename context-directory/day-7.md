@@ -1,58 +1,72 @@
-# Day 7 — What Claude Code Is (and why not just use the chat box)
+# Day 7 — Claude Code for people who don't write code
+
+*For Andrey*
 
 ## The one-line version
 
-Claude Code is Claude with hands. Same model you'd talk to in a browser tab, except
-it can read your files, run your commands, see what breaks, and fix it — without you
-playing courier.
+Claude Code is Claude that can actually reach your files and do the work, instead of
+telling you how to do it. It now runs as a desktop app, so you don't need a terminal.
 
-## The honest case for it
+## Why this is different from the chat window
 
-If you've used AI for code in a browser, you know the loop:
+In the chat window, the transaction is: you describe something, Claude produces text,
+and then **you** go do the work. Copy the summary into a document. Open the spreadsheet.
+Rename the files. Send the email.
 
-1. Copy a file into the chat.
-2. Get back a suggestion that's 80% right.
-3. Paste it in, run it, watch it fail.
-4. Copy the stack trace back into the chat.
-5. Repeat until you give up or it works.
+That last step — you, doing it by hand — is the whole job most of the time.
 
-You are the integration layer. Every round trip costs you attention, and the model is
-guessing at everything you didn't paste — your other 40 files, your actual dependency
-versions, what your test suite says.
+Claude Code removes it. Point it at a folder and it can open what's inside, work through
+all of it, and leave you a finished file. Not advice about the work. The work.
 
-Claude Code closes that loop. It runs in your terminal (or IDE, or the web) with access
-to the real repo. It greps for the function instead of asking you what it's called. It
-runs the tests and reads the failure itself. It makes a change across six files because
-it can actually see all six.
+## What that looks like in practice
 
-The difference isn't "smarter answers." It's that the model gets **feedback** — and
-feedback is what turns a plausible guess into a correct one.
+Concrete things that are ordinary for Claude Code and impossible in a chat box:
 
-## What it's actually good at
+- **"Here are 40 vendor invoices as PDFs. Build me one spreadsheet: vendor, date, amount,
+  category."** It opens each one, pulls the numbers, produces the file.
+- **"Read these six meeting-note files and draft a status update for the quarter."**
+  It reads the actual notes, not your summary of them.
+- **"These two exports should match. Tell me every row where they don't."**
+- **"Reorganize this folder by client and year, and flag anything that looks misfiled."**
+- **"Turn this rough outline into a formatted Word document with the section structure
+  we use."**
 
-- Multi-file changes where you'd otherwise be pasting all day
-- "Why does this break?" — it can reproduce instead of theorize
-- Tedious-but-not-hard work: migrations, test coverage, renames, cleanup
-- Getting oriented in a codebase nobody documented
+The pattern: anything where the answer requires *going through* a pile of material
+rather than knowing a fact.
 
-## Where the skepticism is warranted
+## The mental shift
 
-- **It's not autonomous.** It's a fast pair, not a replacement. You review the diff.
-  Anything you'd catch in a human's PR, you still have to catch here.
-- **It can be confidently wrong.** The advantage is that running tests makes wrong-ness
-  visible fast, not that it stops happening.
-- **It's not free** — of tokens or of your judgment. Handing it something you don't
-  understand yourself is how you end up with code you can't maintain.
+Chat is a **conversation**. Claude Code is **delegation**.
 
-## When the browser tab is still fine
+You're not asking a question and reading an answer. You're handing off a task the way
+you'd hand it to a capable new hire: describe the outcome, let them work, review what
+comes back. Same rhythm — including the part where you check the result.
 
-Conceptual questions. "Explain this pattern." Anything not touching a real codebase.
-Don't reach for the heavier tool when you just want to think out loud.
+## Where healthy skepticism belongs
 
-## The actual reason to try it
+- **You still review the output.** It can be confidently wrong. On anything that goes to
+  a client, a regulator, or a board, treat its work like a draft from a junior colleague,
+  not a finished deliverable.
+- **It touches real files.** That's the power and the risk. Early on, point it at a copy
+  of the folder, not the only copy. Once you trust it on a task, stop bothering.
+- **It doesn't know what "good" looks like in your job.** It can produce the report. It
+  can't tell you the number in row 12 is implausible because you know that client. That
+  judgment stays yours, and it's the part that was always worth your time anyway.
+- **Vague in, vague out.** "Clean up this folder" gets you a guess. "Group by client,
+  archive anything before 2023, flag duplicates" gets you what you wanted.
 
-The gap between "AI that suggests code" and "AI that runs code" is bigger than it
-sounds. Most of the frustration with the first kind comes from the model working blind.
-Give it eyes and a shell, and a lot of that frustration just goes away.
+## When the chat window is still the right tool
 
-Try it on something boring and mechanical first. That's where the case makes itself.
+Thinking out loud. "How should I frame this to the team?" Advice, drafting from scratch,
+anything not touching files you already have. Don't reach for the bigger tool to ask a
+question.
+
+## How to actually start
+
+Pick the most boring repetitive thing on your plate — the monthly report you assemble by
+hand, the folder you tidy every quarter, the two systems you reconcile in Excel.
+
+Not the important task. The tedious one. Describe the outcome you want, let it work,
+check what it produced. You'll know within one attempt whether this changes your week.
+
+That's the honest test. Everything else is marketing.
