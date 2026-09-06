@@ -1,72 +1,75 @@
-# Day 7 — Claude Code for people who don't write code
+# День 7 — Claude Code для тех, кто не пишет код
 
-*For Andrey*
+*Для Андрея*
 
-## The one-line version
+## Если в одну строку
 
-Claude Code is Claude that can actually reach your files and do the work, instead of
-telling you how to do it. It now runs as a desktop app, so you don't need a terminal.
+Claude Code — это Claude, который может добраться до ваших файлов и сделать работу,
+а не рассказать, как её делать. Теперь он есть в виде десктопного приложения, так что
+терминал не нужен.
 
-## Why this is different from the chat window
+## Чем это отличается от окна чата
 
-In the chat window, the transaction is: you describe something, Claude produces text,
-and then **you** go do the work. Copy the summary into a document. Open the spreadsheet.
-Rename the files. Send the email.
+В чате схема такая: вы описываете задачу, Claude выдаёт текст, а дальше **вы** идёте и
+делаете работу. Переносите резюме в документ. Открываете таблицу. Переименовываете файлы.
+Отправляете письмо.
 
-That last step — you, doing it by hand — is the whole job most of the time.
+Вот этот последний шаг — вы, руками — обычно и есть вся работа.
 
-Claude Code removes it. Point it at a folder and it can open what's inside, work through
-all of it, and leave you a finished file. Not advice about the work. The work.
+Claude Code его убирает. Укажите ему на папку — он откроет то, что внутри, пройдёт по
+всему содержимому и оставит вам готовый файл. Не советы о работе. Работу.
 
-## What that looks like in practice
+## Как это выглядит на практике
 
-Concrete things that are ordinary for Claude Code and impossible in a chat box:
+Вещи, которые для Claude Code рутина, а в окне чата невозможны в принципе:
 
-- **"Here are 40 vendor invoices as PDFs. Build me one spreadsheet: vendor, date, amount,
-  category."** It opens each one, pulls the numbers, produces the file.
-- **"Read these six meeting-note files and draft a status update for the quarter."**
-  It reads the actual notes, not your summary of them.
-- **"These two exports should match. Tell me every row where they don't."**
-- **"Reorganize this folder by client and year, and flag anything that looks misfiled."**
-- **"Turn this rough outline into a formatted Word document with the section structure
-  we use."**
+- **«Вот 40 счетов от поставщиков в PDF. Собери одну таблицу: поставщик, дата, сумма,
+  категория».** Он открывает каждый, вытаскивает цифры, отдаёт файл.
+- **«Прочитай эти шесть файлов с заметками со встреч и составь отчёт за квартал».**
+  Он читает сами заметки, а не ваш пересказ.
+- **«Эти две выгрузки должны совпадать. Покажи все строки, где они расходятся».**
+- **«Разложи эту папку по клиентам и годам, и отметь всё, что лежит явно не там».**
+- **«Преврати этот черновой план в оформленный документ Word с нашей структурой
+  разделов».**
 
-The pattern: anything where the answer requires *going through* a pile of material
-rather than knowing a fact.
+Общий признак: подходит всё, где ответ требует *пройти через кучу материала*, а не
+просто что-то знать.
 
-## The mental shift
+## Смена подхода
 
-Chat is a **conversation**. Claude Code is **delegation**.
+Чат — это **разговор**. Claude Code — это **делегирование**.
 
-You're not asking a question and reading an answer. You're handing off a task the way
-you'd hand it to a capable new hire: describe the outcome, let them work, review what
-comes back. Same rhythm — including the part where you check the result.
+Вы не задаёте вопрос и читаете ответ. Вы передаёте задачу так, как передали бы толковому
+новому сотруднику: описали результат, дали сделать, проверили, что получилось. Ритм тот
+же — включая ту часть, где вы проверяете.
 
-## Where healthy skepticism belongs
+## Где скепсис уместен
 
-- **You still review the output.** It can be confidently wrong. On anything that goes to
-  a client, a regulator, or a board, treat its work like a draft from a junior colleague,
-  not a finished deliverable.
-- **It touches real files.** That's the power and the risk. Early on, point it at a copy
-  of the folder, not the only copy. Once you trust it on a task, stop bothering.
-- **It doesn't know what "good" looks like in your job.** It can produce the report. It
-  can't tell you the number in row 12 is implausible because you know that client. That
-  judgment stays yours, and it's the part that was always worth your time anyway.
-- **Vague in, vague out.** "Clean up this folder" gets you a guess. "Group by client,
-  archive anything before 2023, flag duplicates" gets you what you wanted.
+- **Результат всё равно проверяете вы.** Он может уверенно ошибаться. Всё, что уходит
+  клиенту, регулятору или совету директоров, воспринимайте как черновик от младшего
+  коллеги, а не как готовый документ.
+- **Он работает с реальными файлами.** В этом и сила, и риск. На первых порах указывайте
+  на копию папки, а не на единственный экземпляр. Когда начнёте доверять ему в конкретной
+  задаче — перестанете этим заморачиваться.
+- **Он не знает, что в вашей работе считается «хорошо».** Отчёт он соберёт. А вот сказать,
+  что цифра в строке 12 выглядит неправдоподобно, потому что вы знаете этого клиента, —
+  не сможет. Это остаётся за вами, и как раз на это ваше время всегда и стоило тратить.
+- **Размыто на входе — размыто на выходе.** «Приберись в папке» даст вам догадку.
+  «Сгруппируй по клиентам, всё до 2023 года в архив, дубликаты отметь» даст то, что нужно.
 
-## When the chat window is still the right tool
+## Когда чат по-прежнему уместнее
 
-Thinking out loud. "How should I frame this to the team?" Advice, drafting from scratch,
-anything not touching files you already have. Don't reach for the bigger tool to ask a
-question.
+Подумать вслух. «Как лучше подать это команде?» Совет, черновик с нуля, всё, что не
+касается уже существующих файлов. Не стоит доставать инструмент потяжелее, чтобы просто
+задать вопрос.
 
-## How to actually start
+## С чего начать
 
-Pick the most boring repetitive thing on your plate — the monthly report you assemble by
-hand, the folder you tidy every quarter, the two systems you reconcile in Excel.
+Возьмите самое скучное и повторяющееся, что у вас есть: ежемесячный отчёт, который вы
+собираете вручную, папку, которую разгребаете раз в квартал, две системы, которые
+сводите в Excel.
 
-Not the important task. The tedious one. Describe the outcome you want, let it work,
-check what it produced. You'll know within one attempt whether this changes your week.
+Не важную задачу. Нудную. Опишите нужный результат, дайте сделать, посмотрите, что
+получилось. За одну попытку станет понятно, меняет это вашу неделю или нет.
 
-That's the honest test. Everything else is marketing.
+Это честная проверка. Всё остальное — маркетинг.
