@@ -6,19 +6,17 @@ Urgency: `[!]` urgent · `[~]` soon · `[ ]` no deadline set
 
 ---
 
-## Work — Payment Projects
+## Work
 
-- [ ] **X project — Brazil**
+- [ ] **X project — Brazil** *(payments)*
   - *Open:* scope, stage, deadline, who else is involved
 
-- [ ] **Prompt Pay project — Thailand**
+- [ ] **Prompt Pay project — Thailand** *(payments)*
   - *Open:* scope, stage, deadline, who else is involved
-
-## Other Projects
 
 - [ ] **Movie project**
-  - *Open:* work or personal? what's the role — producing, investing, something else?
-  - *Open:* stage, deadline, who else is involved
+  - *Open:* what's the role — producing, financing, partnership?
+  - *Open:* scope, stage, deadline, who else is involved
 
 ## Personal
 
@@ -29,9 +27,9 @@ Urgency: `[!]` urgent · `[~]` soon · `[ ]` no deadline set
 
 ## Notes
 
-- Categories so far: payment projects (Brazil, Thailand), other projects, personal.
-  Will re-cut as more items come in — e.g. split by market or by stage if the list grows.
-- "Movie project" is parked under Other Projects until it's clear whether it belongs
-  with work or with personal.
+- Two categories: work and personal. The "Other Projects" heading is gone — the movie
+  project turned out to be work, so it moved there and nothing was left behind.
+- The two payment projects are tagged *(payments)* rather than split into their own
+  sub-heading. If work grows past a handful of items, split it then.
 - No urgency set on anything yet — every item is `[ ]`. Once deadlines are known,
   items get sorted most-urgent-first within their category.
