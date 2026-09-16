@@ -2,6 +2,8 @@
 
 *Last updated: 2026-09-16*
 
+Urgency: `[!]` urgent · `[~]` soon · `[ ]` no deadline set
+
 ---
 
 ## Work — Payment Projects
@@ -31,4 +33,5 @@
   Will re-cut as more items come in — e.g. split by market or by stage if the list grows.
 - "Movie project" is parked under Other Projects until it's clear whether it belongs
   with work or with personal.
-- Items above are placeholders: names captured, details still to be filled in.
+- No urgency set on anything yet — every item is `[ ]`. Once deadlines are known,
+  items get sorted most-urgent-first within their category.
