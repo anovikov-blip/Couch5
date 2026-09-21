@@ -1,6 +1,6 @@
 # Reminders
 
-*Last updated: 2026-09-16*
+*Last updated: 2026-09-21*
 
 Urgency: `[!]` urgent · `[~]` soon · `[ ]` no deadline set
 
@@ -33,3 +33,6 @@ Urgency: `[!]` urgent · `[~]` soon · `[ ]` no deadline set
   sub-heading. If work grows past a handful of items, split it then.
 - No urgency set on anything yet — every item is `[ ]`. Once deadlines are known,
   items get sorted most-urgent-first within their category.
+- **2026-09-21 sweep:** nothing advanced since the list was created on 16 September.
+  Every item still has empty `*Open:*` fields — scope, deadline and owner are unknown
+  across the board, which is what is blocking any of them from being scheduled.
