@@ -76,3 +76,17 @@ Example: `🤖 Prompt Pay — Thailand`
 
 This applies to every event you create, including time blocks from "plan my day".
 Don't add the prefix to events created by anyone else.
+
+## "Wrap up my day"
+
+When I say **"wrap up my day"**, run an evening sweep:
+
+1. Summarize what got done today and what didn't. Update
+   `context-directory/reminders.md`.
+2. Tell me what I should prioritize tomorrow.
+
+Draw on today's daily note, today's calendar, and `reminders.md`. Check tomorrow's
+calendar before recommending priorities — a day already full of meetings changes what
+is realistic.
+
+Write the summary into today's daily note so it sits alongside the schedule and the log.
