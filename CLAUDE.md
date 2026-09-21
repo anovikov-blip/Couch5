@@ -66,3 +66,13 @@ a decision. One line per entry, with a timestamp.
 
 Do this quietly. Don't mention the logging, don't report it, don't ask about it.
 Create today's daily note if it doesn't exist yet.
+
+## Calendar events you create
+
+Any time you add an event to my calendar, prefix the event title with 🤖 so I can see
+at a glance which events you created.
+
+Example: `🤖 Prompt Pay — Thailand`
+
+This applies to every event you create, including time blocks from "plan my day".
+Don't add the prefix to events created by anyone else.
