@@ -48,13 +48,19 @@ someone else and the next move is yours. Previous sweep was 2026-09-21.*
   - Second reminder: "Precisamos respuesta para poder avanzar". Addressed to Dolores
     Chávez with you in copy — confirm whether this is yours to answer or hers.
 
-### Read this before the Genial sign-off
+### Banco Genial — eFX for virtual assets closing
 
-- **Banco Genial is discontinuing its eFX service for virtual-asset purchases from
-  1 October 2026** — 30 September is the last day. Forwarded FYI by Ellen Inhauser on
-  21 Sep to Treasury, FT, Rose del Col and you. No reply requested, but it lands on the
-  same bank you are opening the non-resident account with. Worth checking whether it
-  changes the case for that account before you sign off on the legal opinion.
+- [!] **Bernardo Duarte (Banco Genial, Corporate Desk)** via Ellen Inhauser — *Fwd: eFX
+  Crypto - Banco Genial S.A.*
+  - Banco Genial ends its **eFX modality for acquiring virtual assets from 1 October
+    2026**. **30 September is the last date for both contracting and settling** in this
+    modality — cut-off times, required documentation and the usual approval procedures
+    all still apply, so the real window is shorter than the date suggests.
+  - **The bank asks to be told promptly about any pending operations** so they can
+    coordinate closure. That request is addressed to our side; sent to Ellen and Rose,
+    forwarded to Dimitris, Olegs, FT and you. Eight days left.
+  - Separate from the non-resident account work — this closes one product line, not the
+    bank relationship. It does **not** block the KNP legal-opinion sign-off above.
 
 ### Action requests (system-generated, not replies)
 
