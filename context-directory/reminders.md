@@ -71,6 +71,12 @@ someone else and the next move is yours. Previous sweep was 2026-09-21.*
     obligation there.
   - Ask Ellen and Rose which flows settled this way and whether anything is still open.
 
+- [!] **Send the legal questions to Thiago Genda / Brazilian counsel**
+  - Doc: *Brazil VASP Rules — Questions for Legal*
+    (https://claude.ai/code/artifact/c7f12c06-e9e2-4bf3-a032-6b7a99af03dc). Three
+    questions — PSAV perimeter, unauthorised merchants, Res. 561 settlement. Question 3
+    is urgent against the 30 Sep Genial cut-off.
+
 ### Action requests (system-generated, not replies)
 
 *Carried over from the 21 Sep sweep — not re-verified, may already be done.*
