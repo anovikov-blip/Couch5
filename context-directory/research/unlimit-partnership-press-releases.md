@@ -60,16 +60,43 @@ from the Unlimint era for completeness.*
 | May 2022 | **PicPay** (Brazil) | LatAm's largest digital wallet added — 60M+ customers |
 | 2022 *(unconfirmed)* | **Mercado Pago** | Added to the payment portfolio |
 | 2022 *(unconfirmed)* | **Discover** | Acquiring agreement — Discover Global Network acceptance across 3 continents |
-| 2022 *(unconfirmed)* | **Telegram** | Powering direct in-app purchases |
+| 29 Jun 2022 | **Telegram** | Unlimint becomes Telegram's payment provider, powering direct in-app purchases; 3DS on every transaction, automated anti-fraud |
 
 ---
 
+## Searched by name, not found
+
+These were expected but no press release could be located (searched by company name,
+in English and Spanish, including site-restricted queries against unlimit.com):
+
+| Expected | What the search actually turned up |
+|---|---|
+| **Office Depot de México** | No Unlimit announcement. Nothing on unlimit.com, Office Depot channels, or trade press. |
+| **Whirlpool México** | No Unlimit announcement. Spanish-language search returned only Unlimit/Visa, Unlimit/PASE and Unlimit/Binance. |
+| **Grupo IAMSA / Omnibus de México / Flecha Roja** | No Unlimit announcement. Only the operators' own ticketing pages. |
+| **Algebraix** (Mexican schools) | No Unlimit announcement. Algebraix was **acquired by Mattilda in October 2025** — so the Unlimit–Mattilda release (4 Aug 2026) may be the one being remembered, since Mattilda now owns the school-management platform. |
+
+**A lead worth checking.** Office Depot de México, Whirlpool México, Omnibus de México
+and PASE all appear together in the Drive sheet *"Mercado Pago Potential Merchants__2026"*
+(owner d.martinez@unlimit.com) as **potential** merchants with estimated TPV — Office
+Depot 55K, Whirlpool 15K, Omnibus 150K, PASE 50K EUR. PASE is the one of the four that
+went on to a public announcement. The other three may be pipeline or live merchants
+that were never announced publicly, or announced somewhere the search index does not
+reach.
+
+Three ways to settle it, none available from this environment:
+1. Open `unlimit.com/media-room/` (it is paginated — at least 16 pages) and read the list.
+2. Ask Unlimit PR/comms for the full release archive.
+3. Check whether these were **case studies** rather than press releases — different
+   section of the site, indexed differently.
+
 ## Patterns worth noting
 
-- **This list is not proven complete.** The PASE release (Jun 2026) was missed on the
-  first pass and only surfaced when searched for by name — general queries did not
-  return it. Assume other releases are missing until the list is checked against
-  unlimit.com/blog/press-release/ directly.
+- **This list is not proven complete.** The PASE (Jun 2026) and Telegram (Jun 2022)
+  releases were both missed on the first pass and only surfaced when searched for by
+  name. Four more names supplied from memory could not be found at all — see the
+  section above. Assume releases are still missing until the list is checked against
+  unlimit.com/media-room/ directly.
 - **Two distinct kinds of announcement.** Network/rail deals (Visa, UnionPay, Discover,
   Alipay+, Pix, Binance Pay) versus named merchant wins (Doto, UnDosTres, Farmasi,
   inDrive, Moby, Mattilda, RailYatri). The second kind carries hard performance
