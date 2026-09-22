@@ -3,7 +3,7 @@
 *Compiled 2026-09-21. Covers ~Sept 2022 – Sept 2026 (4 years), plus mid-2022 items
 from the Unlimint era for completeness.*
 
-> **Method and caveat.** `unlimit.com`, `thepaypers.com` and `ffnews.com` are blocked
+> **Method and caveat.** `unlimit.com`, `linkedin.com`, `thepaypers.com` and `ffnews.com` are blocked
 > by this environment's network egress proxy, so the list could not be reconciled
 > against Unlimit's own newsroom. It was assembled from search results and third-party
 > coverage. Dates marked **(unconfirmed)** appeared in only one source or were inferred
@@ -30,14 +30,16 @@ from the Unlimint era for completeness.*
 
 | Date | Partner | What was announced |
 |---|---|---|
+| 29 Sep 2025 | **Bazaraki** (Cyprus, classifieds) | Payments partnership — LinkedIn only, no press release found |
 | Jun 2025 | **Visa** (Mexico) | Expanded principal licence to add card issuance to the local offering |
-| Mar 2025 | **Doto** (Mexico, electronics retail) | Higher acceptance, fewer bank rejections, better high-risk recovery — +2.5% approvals in month one |
+| 27 Mar 2025 | **Doto** (Mexico, electronics retail) | Higher acceptance, fewer bank rejections, better high-risk recovery — +2.5% approvals in month one |
 
 ## 2024
 
 | Date | Partner | What was announced |
 |---|---|---|
 | 31 Oct 2024 | **SHOPLINE** | Strategic partnership to drive Chinese merchants' global expansion |
+| 12 Sep 2024 | **Shoplazza** | Cross-border payments for Shoplazza merchants — LinkedIn only |
 | 29 Aug 2024 | **Alchemy Pay** | Expanded fiat-crypto gateway partnership across EU, SEA and LatAm |
 | 1 Aug 2024 | **Yuno** | Integration with the payment-orchestration platform |
 | 6 Mar 2024 | **VTEX** | Global partnership giving enterprise retailers domestic and cross-border acceptance via Unlimit's API |
@@ -47,6 +49,7 @@ from the Unlimint era for completeness.*
 | Date | Partner | What was announced |
 |---|---|---|
 | Dec 2023 | **UnionPay International** | Global issuing partnership; UPI cards inside Unlimit's BaaS platform |
+| 22 Jun 2023 | **Mastercard** (Engage Partner Network) | Joining Engage to help businesses launch and scale web3 products across the crypto value chain — LinkedIn only |
 | Jul 2023 | **inDrive** | Global partnership — local currencies and APMs for inDrive's market expansion |
 | 2023 *(unconfirmed)* | **UnDosTres** (Mexico) | Payment approval rates exceeded 80% after partnering |
 | 2023 *(unconfirmed)* | **Moby** (Italy, ferries) | Online booking and payment methods; Google Pay / Apple Pay planned |
@@ -63,6 +66,32 @@ from the Unlimint era for completeness.*
 | 29 Jun 2022 | **Telegram** | Unlimint becomes Telegram's payment provider, powering direct in-app purchases; 3DS on every transaction, automated anti-fraud |
 
 ---
+
+## LinkedIn sweep
+
+`linkedin.com` is blocked by this environment's egress proxy, so the company page could
+not be read directly. What follows came from search-indexed LinkedIn posts. Dates were
+recovered by decoding the timestamp embedded in each post's activity ID, so they are
+exact where an ID was available.
+
+**Found on LinkedIn but with no press release located** — these are folded into the
+year tables above and marked *LinkedIn only*:
+
+| Date | Partner | Note |
+|---|---|---|
+| 29 Sep 2025 | **Bazaraki** (Cyprus) | Largest classifieds marketplace in Cyprus |
+| 12 Sep 2024 | **Shoplazza** | Cross-border payments for its merchants |
+| 22 Jun 2023 | **Mastercard** | Engage Partner Network, web3 / crypto value chain |
+| *date unknown* | **Hopscotch** (India) | India's largest online children's fashion brand — larger volumes, fewer payment failures |
+| *date unknown* | **Xiaomi GetApps — Brazil** | Earlier phase of the GetApps relationship: Pix acceptance for app purchases in Brazil. The Jul 2026 release is the expansion of this. |
+
+**Also seen on LinkedIn, not partnerships** (recorded so they are not mistaken for
+gaps): GateFi crypto launch (2 Nov 2022), Tanzania market entry, Shanghai office
+opening (2026).
+
+**This sweep is partial.** Search indexes a small slice of a company page — posts older
+than a few months, or that got little engagement, do not surface. The company page
+itself would have to be scrolled to be sure.
 
 ## Searched by name, not found
 
