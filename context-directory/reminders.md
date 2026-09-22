@@ -48,19 +48,28 @@ someone else and the next move is yours. Previous sweep was 2026-09-21.*
   - Second reminder: "Precisamos respuesta para poder avanzar". Addressed to Dolores
     Chávez with you in copy — confirm whether this is yours to answer or hers.
 
-### Banco Genial — eFX for virtual assets closing
+### Banco Genial — eFX for virtual assets closing (regulatory)
 
 - [!] **Bernardo Duarte (Banco Genial, Corporate Desk)** via Ellen Inhauser — *Fwd: eFX
   Crypto - Banco Genial S.A.*
-  - Banco Genial ends its **eFX modality for acquiring virtual assets from 1 October
-    2026**. **30 September is the last date for both contracting and settling** in this
-    modality — cut-off times, required documentation and the usual approval procedures
-    all still apply, so the real window is shorter than the date suggests.
-  - **The bank asks to be told promptly about any pending operations** so they can
-    coordinate closure. That request is addressed to our side; sent to Ellen and Rose,
-    forwarded to Dimitris, Olegs, FT and you. Eight days left.
-  - Separate from the non-resident account work — this closes one product line, not the
-    bank relationship. It does **not** block the KNP legal-opinion sign-off above.
+  - **This is not a Genial decision about Unlimit.** It is compliance with **Resolução
+    BCB nº 561/2026** (published 30 Apr 2026, amending Res. BCB 277/2022), in force
+    **1 October 2026** — the same date. The rule bans virtual assets, stablecoins
+    included, as a means of payment, receipt or settlement between an eFX provider and
+    its counterparty abroad. Settlement must go through a conventional FX operation or
+    through a **non-resident BRL account held in Brazil**.
+  - **Switching banks does not help** — every eFX provider in Brazil is under the same
+    rule. The fix is structural, not commercial.
+  - **30 September is the last date for both contracting and settling** in this
+    modality, subject to cut-off times and the usual approval procedures. The bank asks
+    to be told promptly about pending operations.
+  - **Hypothesis to test with Thiago:** the non-resident account being opened for
+    Unlimit MX SAPI at Genial may be exactly the compliant replacement route the
+    resolution names. If so, the KNP legal-opinion sign-off is urgent, not optional.
+  - **Second deadline in the same window: 30 October 2026** — the cut-off for VASP
+    (PSAV) authorisation requests to the BCB. Check whether Unlimit Brasil has an
+    obligation there.
+  - Ask Ellen and Rose which flows settled this way and whether anything is still open.
 
 ### Action requests (system-generated, not replies)
 
