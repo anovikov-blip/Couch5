@@ -18,6 +18,7 @@ from the Unlimint era for completeness.*
 | 4 Aug 2026 | **Mattilda** (Mexico, edtech) | Digitalising tuition-fee collection for Mexico's education sector |
 | 24 Jul 2026 | **Xiaomi GetApps** | Expanded partnership — game studios scale payments and distribution; GetApps developers get IBAN accounts and cross-border settlement |
 | 12 May 2026 | **Comviva** | Unlimit becomes a selectable payment gateway inside mobiquity® One; 1,000+ payment methods; initial focus on Indian merchants |
+| 9 Jun 2026 | **PASE** (Mexico, electronic toll collection) | Overhaul of PASE's digital financial architecture — transaction performance, fraud prevention, payment ecosystem mapping. **Approval rates up to 90% on bank-account transactions; chargebacks under 0.04%** |
 | 30 Apr 2026 | **Binance Pay** | Digital-asset rails embedded into Unlimit's infrastructure; reach to 310M+ Binance users and 21M+ Binance Pay merchants |
 | 16 Mar 2026 | **CYGMA** (Cyprus Game Makers Association) | Named Strategic Global Fintech Partner; payment infrastructure for member studios |
 | 2026 *(unconfirmed)* | **Decentro** (India) | Cross-border growth infrastructure for Indian businesses — PIX, SEPA Instant, APAC e-wallets |
@@ -65,14 +66,20 @@ from the Unlimint era for completeness.*
 
 ## Patterns worth noting
 
+- **This list is not proven complete.** The PASE release (Jun 2026) was missed on the
+  first pass and only surfaced when searched for by name — general queries did not
+  return it. Assume other releases are missing until the list is checked against
+  unlimit.com/blog/press-release/ directly.
 - **Two distinct kinds of announcement.** Network/rail deals (Visa, UnionPay, Discover,
   Alipay+, Pix, Binance Pay) versus named merchant wins (Doto, UnDosTres, Farmasi,
   inDrive, Moby, Mattilda, RailYatri). The second kind carries hard performance
-  numbers — Doto +2.5% approvals, UnDosTres >80% approval rate.
-- **Regional weight.** Mexico and Brazil dominate LatAm coverage; India became a heavy
+  numbers — PASE up to 90% approvals and <0.04% chargebacks, UnDosTres >80% approval
+  rate, Doto +2.5% approvals in month one.
+- **Regional weight.** Mexico is the single most covered market (PASE, Doto, UnDosTres,
+  Mattilda, Visa); Brazil follows; India became a heavy
   theme in 2026 (Comviva, Decentro, RailYatri); APAC runs through Alipay+, SHOPLINE and
   Xiaomi.
-- **Verticals on the record:** gaming (CYGMA, Xiaomi GetApps), mobility (inDrive,
+- **Verticals on the record:** gaming (CYGMA, Xiaomi GetApps), mobility (PASE, inDrive,
   RailYatri, Moby), education (Mattilda, Convera), retail/e-commerce (Doto, Farmasi,
   SHOPLINE, VTEX), crypto (Alchemy Pay, Binance Pay).
 
