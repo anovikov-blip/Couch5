@@ -120,6 +120,10 @@ Johnpulle at Sibos. Newsletters, bank notifications and event invitations not li
     if possible, else per market.
   - Doc: *FX Brokers for Per-Transaction Rate Lock*
     (https://claude.ai/code/artifact/6a58b6b0-f903-40ca-a142-0f37afa22bf2)
+  - **Ticket size: USD 100,000 minimum.** That rules out the non-bank licence in Korea
+    (USD 5k/txn cap), India via PA-CB (~USD 30k), Malaysia (~USD 45k/day) and Indonesia.
+    Brazil clears at USD 500k per spot operation. Asia needs a global broker, not a
+    local licensee.
   - *Open:* which markets matter by volume; whether the held rate must be binding or
     indicative; what we can disclose under NDA; who owns the outreach.
 
