@@ -1,6 +1,6 @@
 # Reminders
 
-*Last updated: 2026-09-22*
+*Last updated: 2026-09-30*
 
 Urgency: `[!]` urgent · `[~]` soon · `[ ]` no deadline set
 
@@ -8,103 +8,109 @@ Urgency: `[!]` urgent · `[~]` soon · `[ ]` no deadline set
 
 ## Emails to respond to
 
-*Swept 2026-09-22 12:49 HKT — inbox, last 48h. Threads where the last message is from
-someone else and the next move is yours. Previous sweep was 2026-09-21.*
+*Swept 2026-09-30 21:02 HKT — inbox, last 168h (23–30 Sep). Threads where the last
+message is from someone else and the next move is yours. Previous sweep was 2026-09-22
+over 48h, so this one reaches back a week and the list is correspondingly longer.*
 
 ### Closed since the last sweep
 
-- ~~**Dan Thompson (Klarna)**~~ — you replied 22 Sep 04:32 UTC. ✅
-- ~~**DocuSign — Travel Boutique Online S.A. de C.V. (Update Fees Form)**~~ — all parties
-  signed, envelope completed 21 Sep. ✅
+- ~~**Akileshwaran N (IFSCA)**~~ — the 24 Sep call has passed. ✅
+- ~~**Colegio Ciudad — museum permission slip**~~ — you forwarded it to Ursula 28 Sep. ✅
+- ~~**Matías Vagedes (VKLA) — BCRA signature**~~ — thread moved to Enrique Piña on
+  invoicing; no longer waiting on you. ✅
+- ~~**Caroline Johnpulle (Lorum) — pricing**~~ — you replied 29 Sep; she is at Sibos. ✅
 
-### Needs a reply
+### Urgent
 
-- [!] **Banco Central do Brasil** (str@bcb.gov.br) — *RES: UNLIMIT IP LTDA. — Acesso ao
-  STR-Web — HOMOLOGAÇÃO*
-  - The regulator replied to your 21 Sep message stating that **all communication with
-    the Banco Central must be in Portuguese**. Your message needs resending in
-    Portuguese or the STR-Web homologation does not move. Auditor: Marcos Shigueo
-    Hirayama, Departamento de Operações.
+- [!] **Bernardo Duarte (Banco Genial)** — *RE: [RESPOSTA NECESSÁRIA] Banco Genial S.A. —
+  Nova Regulação eFX* · 25 Sep, **five days without a reply**
+  - After Ellen confirmed the Genial account (ag. 1, c/c 5957318-0), Bernardo set a hard
+    condition: **the account must receive funds directly from end clients and card
+    acquirers — flows through third-party payment processors are not permitted.**
+  - This cuts at the merchant model directly and is the sharpest fact we have on
+    Res. 561. It belongs in the legal questions doc.
+
+- [!] **Dan Thompson (Klarna)** — *Re: Unlimit & Klarna | 17th September* · 28 Sep
+  - Open again. He wrote last on 28 Sep after your data; nothing since.
 
 - [!] **Veronica Phoebe (Mopay, Jakarta)** — *Re: Mopay Corporate Onboarding & API Docs*
-  - Still unanswered since 3 Sep, now 19 days. She needs the KYB form filled in and the
-    trade agreement reviewed (commercials in the annex).
+  - **27 days unanswered.** KYB form and trade agreement still outstanding.
 
-- [!] **Akileshwaran N (IFSCA)** — *Re: VC meet with Unlimit*
-  - Call moved to **24 September, 14:30 IST — that is the day after tomorrow.**
-    Addressed to Mayank Kakkar with you in copy; no confirmation from you yet.
+- [!] **Banco Central do Brasil** (str@bcb.gov.br) — *Acesso ao STR-Web — HOMOLOGAÇÃO*
+  - Still unresolved from 21 Sep: all correspondence must be in Portuguese.
 
-- [!] **Colegio Ciudad — Dirección Polanco** — *Entrega de permiso – Visita al Museo de
-  Historia Natural*
-  - Signed permission slip for Daniil's museum trip. **The deadline was 21 September —
-    it has passed.** Sent to you and ursula.lgn@gmail.com.
+- [!] **Banco Central do Brasil** (cosif@bcb.gov.br) — *INDÍCIO DE PROBLEMA DE QUALIDADE
+  — DOCUMENTO 4111* · 25 Sep
+  - Quality flag on the daily balance filing (doc 4111, Res. BCB 208) for CNPJ
+    35.542.555, addressed to the director responsible for the daily submission.
 
-- [~] **Thiago Genda (Unlimit Legal)** — *Re:* (Banco Genial non-resident account / KNP)
-  - Still open. Thiago confirmed the draft legal opinion meets Banco Genial's
-    requirements; Jorge Luna is waiting to be told it is suitable so he can issue the
-    final version. Your sign-off is the blocker.
+- [!] **Dolores Chávez (Legal)** — *RE: Klap - Approval* · 28 Sep, **unread**
+  - Legal does not accept liability caps; she needs a business decision from you on
+    whether to counter-propose.
 
-- [~] **Matías Vagedes (VKLA, Argentina)** — *Re: URGENTE firma por Kirill y Pavel_BCRA*
-  - Second reminder: "Precisamos respuesta para poder avanzar". Addressed to Dolores
-    Chávez with you in copy — confirm whether this is yours to answer or hers.
+- [!] **DH Lee (Payletter)** · three messages since 27 Sep, last 29 Sep **unread**
+- [!] **jwh0506 (KG Inicis)** — *RE: KG Inicis&Unlimit cooperation* · 29 Sep, **unread**
+  - Company overview sent after your visit, plus a further request.
+- [!] **Harika Ashfaq (Simpaisa)** · 29 Sep, **unread** — and Dmitriy Bolshov sent a
+  "KIND REMINDER" on 25 Sep chasing updated Simpaisa bank details.
 
-### Banco Genial — eFX for virtual assets closing (regulatory)
+### Soon
 
-- [!] **Bernardo Duarte (Banco Genial, Corporate Desk)** via Ellen Inhauser — *Fwd: eFX
-  Crypto - Banco Genial S.A.*
-  - **This is not a Genial decision about Unlimit.** It is compliance with **Resolução
-    BCB nº 561/2026** (published 30 Apr 2026, amending Res. BCB 277/2022), in force
-    **1 October 2026** — the same date. The rule bans virtual assets, stablecoins
-    included, as a means of payment, receipt or settlement between an eFX provider and
-    its counterparty abroad. Settlement must go through a conventional FX operation or
-    through a **non-resident BRL account held in Brazil**.
-  - **Switching banks does not help** — every eFX provider in Brazil is under the same
-    rule. The fix is structural, not commercial.
-  - **30 September is the last date for both contracting and settling** in this
-    modality, subject to cut-off times and the usual approval procedures. The bank asks
-    to be told promptly about pending operations.
-  - **Hypothesis to test with Thiago:** the non-resident account being opened for
-    Unlimit MX SAPI at Genial may be exactly the compliant replacement route the
-    resolution names. If so, the KNP legal-opinion sign-off is urgent, not optional.
-  - **Second deadline in the same window: 30 October 2026** — the cut-off for VASP
-    (PSAV) authorisation requests to the BCB. Check whether Unlimit Brasil has an
-    obligation there.
-  - Ask Ellen and Rose which flows settled this way and whether anything is still open.
+- [~] **Thiago Genda** — Banco Genial non-resident account / KNP legal opinion. Still
+  waiting on your sign-off so Jorge Luna can issue the final version.
+- [~] **Michele F.** — *Re: Standard chartered&Unlimit* · 29 Sep. Hong Kong onboarding
+  is progressing too slowly; Luke Boland is out until 3 Oct.
+- [~] **Karthik Subramanian (slice)** · 29 Sep — terms offered: UPI MDR applies above
+  INR 2,000; below that, no commercials at T+1 settlement.
+- [~] **Caio (Lumx)** · 30 Sep — needs volume, transaction count and average ticket.
+- [~] **Messias Andrade (Ebury)** — *Unlimit & Ebury (efx for crypto)* · 29 Sep — asks
+  for a **copy of your Brazilian RNM** for ID validation. Personal identity document —
+  confirm the request is genuine and send through a secure channel.
+- [~] **Luis Marín (Ontier)** — *RE: Legal advise* · 28 Sep — introduced by Rafael
+  Hospina, offering a call about your plans.
+- [~] **Andre (FanGrabs)** · 29 Sep — inbound; card acquiring discussed with Stefano
+  Canepa earlier this year, thread went quiet.
+- [~] **Annette Jacobson** — *Re: UNL.MX CNBV supervision fee* · 30 Sep — is the amount
+  correct after CNBV admitted classifying us as an investment firm by mistake?
+- [~] **Anastasiya Piatrkouskaya** — *Fwd: Unlimit : Finmo // Reliance Agreement* ·
+  30 Sep — check Dinars's comments.
+- [~] **Mohammad Alfath (Marccus Partners)** · 29 Sep — the PT Unlimit PSP Indonesia
+  virtual office lease has expired and they have had no feedback.
+- [~] **BTG Pactual** — *Migração - Novo Portal Cash Management* · 28 Sep — chasing
+  progress on the regularisation.
+- [~] **Celcoin** — unpaid invoices chased 28 Sep (Rose and you).
+- [~] **Marco Torres** — *Re: URGENT Colombia BBVA acquirer situation* · 25 Sep — BBVA's
+  standard fees, improvable once volumes are shared.
+- [~] **Fabio (Unblock)** — next steps after the call, addressed to Rose and Thiago.
 
-- [!] **Send the legal questions to Thiago Genda / Brazilian counsel**
-  - Doc: *Brazil VASP Rules — Questions for Legal*
-    (https://claude.ai/code/artifact/c7f12c06-e9e2-4bf3-a032-6b7a99af03dc). Three
-    questions — PSAV perimeter, unauthorised merchants, Res. 561 settlement. Question 3
-    is urgent against the 30 Sep Genial cut-off.
+### Signatures and approvals waiting on you
 
-### Action requests (system-generated, not replies)
+- [!] **DocuSign — UNL.BR_CSA-02_CrossBorder_IP-PSP Brasil / PSP Uruguai** · 29 Sep.
+  Thiago confirmed on 30 Sep: **you sign first, then Kirill gets the envelope.**
+  (CSA-01 Local completed 29 Sep. ✅)
+- [!] **DocuSign — Unlimit IP: assistance obtaining the FX Market licence** · Yulia
+  checked it and asked you to sign, 30 Sep.
+- [~] **Webdox** — RIMAC NDA, document 4708. Reminder again 30 Sep; still unsigned.
+- [~] **Ellen Inhauser** — *Genial PSP Transfer Approval 25/09* marked URGENT, though a
+  later message on the same subject says DISREGARD. Confirm which stands.
 
-*Carried over from the 21 Sep sweep — not re-verified, may already be done.*
+### Regulatory notices — not addressed to you alone, but on your name
 
-- [~] **Google Drive — 6 × "Share request for APM space"** — Alfred Chen, Zita Qu, Kiwi
-  Xu, Jian Han, Risa Huang (×2) waiting on access.
-- [~] **help@unlimint.io** — *FIN-13104 Invoice — Unlimit SG PTE / VisualTell Printing*,
-  raised by Yang Huang, awaiting your approval.
-- [~] **Webdox** — *Firma electrónica: UNLIMINT PE_NDA bilingual (RIMAC)*, document 4708
-  pending signature.
+- **Pix / BCB** · 30 Sep — DICT service-level breaches recorded against PSP UNLIMIT IP
+  LTDA (ISPB 35542555).
+- **CERC** · 28 Sep — three alerts: overdue receivable units not written off, and
+  reconciliation gaps on the 24 Sep schedules.
+- **Thiago Genda** · 29 Sep — 2025 annual compliance and internal-control reports filed
+  under Res. BCB 65/2021 and 260/2022, sent to you and Rose for Board acknowledgement.
 
-### Flagged, treat with caution
+### Checked — someone else owns the next step
 
-- **no-reply@tryaiprise.com** — *Verification Required*, claiming a partner of CFX
-  started a verification process and asking you to complete a step. Unsolicited
-  identity-verification requests are a common phishing pattern. Confirm through a known
-  contact before clicking anything.
-
-### Checked and no reply needed
-
-Three automated CERC monitoring alerts on 21 Sep (overdue receivable units not written
-off; reconciliation gaps on 17 Sep schedules) — sent to legalbr and the Brazil group.
-Rieka van Wyk on medical leave until 1 October (legal → legal@unlimit.com). Threads
-where you are only copied and someone else owns the next step: VKLA invoices 267/268
-(Konstantinos/Enrique), Visa Brazil contract termination (Alevtina), Portocap renewal
-(now Konstantinos), Dock demonstrativo (Ellen), PEN conversions (Mariel), Coins.ph
-settlement (Eleftheria), Pandaremit AML review (Risa). Newsletters and bank
-notifications not listed.
+LianLian (Benson Cheng leads), BNP Poland (Maria Medvedeva), Lefosse litigation
+(Thiago), Genial limit increase (done by their IT), BBVA México token (Enrique), Kenya
+VAT/WHT (Yevgenya), Dock settlements (Ellen — you already replied 29 Sep), CFX meeting
+(Ali Motavalli), Celcoin renegotiation (Kirill is waiting on the lawyers' summary, not
+on you). Out-of-office: Rieka van Wyk until 1 Oct, Luke Boland until 3 Oct, Caroline
+Johnpulle at Sibos. Newsletters, bank notifications and event invitations not listed.
 
 ## Work
 
