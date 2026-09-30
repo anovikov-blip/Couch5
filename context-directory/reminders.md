@@ -125,7 +125,13 @@ Johnpulle at Sibos. Newsletters, bank notifications and event invitations not li
     outward transfer (Malaysia RM 200k/day) do. Brazil clears at USD 500k per spot
     operation. Korea has a separate specialised FX registration without the small-sum
     cap, open only to EFT-Act payment-gateway and e-money licensees — which is what
-    Unlimit is.
+    Unlimit is. Hecto Financial is the live Korean candidate — its Mar 2026 approval was
+    for corporate FX.
+  - **Flow:** collect for merchants per market → convert → one pooled transfer to the
+    Dubai entity → merchants settled from Dubai once all markets have landed. The
+    outward leg is an intercompany movement of client funds, which is a different
+    purpose code from a merchant payout — and it conflicts with Banco Genial's
+    condition that funds reach the eFX account directly from end clients and acquirers.
   - *Open:* which markets matter by volume; whether the held rate must be binding or
     indicative; what we can disclose under NDA; who owns the outreach.
 
