@@ -114,6 +114,16 @@ Johnpulle at Sibos. Newsletters, bank notifications and event invitations not li
 
 ## Work
 
+- [~] **Find an FX broker with per-transaction rate lock**
+  - Licensed counterparty that quotes and holds a rate per collected transaction over
+    API, then takes the day's local-currency collections and pays us USD. Multi-country
+    if possible, else per market.
+  - Doc: *FX Brokers for Per-Transaction Rate Lock*
+    (https://claude.ai/code/artifact/6a58b6b0-f903-40ca-a142-0f37afa22bf2)
+  - *Open:* which markets matter by volume; whether the held rate must be binding or
+    indicative; what we can disclose under NDA; who owns the outreach.
+
+
 - [ ] **X project — Brazil** *(payments)*
   - *Open:* scope, stage, deadline, who else is involved
 
