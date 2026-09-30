@@ -132,8 +132,20 @@ Johnpulle at Sibos. Newsletters, bank notifications and event invitations not li
     outward leg is an intercompany movement of client funds, which is a different
     purpose code from a merchant payout — and it conflicts with Banco Genial's
     condition that funds reach the eFX account directly from end clients and acquirers.
-  - *Open:* which markets matter by volume; whether the held rate must be binding or
-    indicative; what we can disclose under NDA; who owns the outreach.
+  - **Outreach: 14 drafts are sitting in Gmail, unsent.** Live contacts — Messias
+    Andrade (Ebury), Guli Kurbonova (GME), DH Lee (Payletter, asking for a Hecto
+    introduction), KG Inicis, Caroline Johnpulle (Lorum, on the AED leg). Global —
+    Kantox, Corpay, Currencycloud, Moneycorp, Monex Europe, Alpha Group, Equals Money,
+    Thunes, AZA Finance. Local, in Spanish — AFEX (Chile), Monex (Mexico), Cobre.
+  - The rest have no mailbox, only a web form. Paste-in text in English, Portuguese and
+    Spanish: `context-directory/research/fx-broker-outreach-templates.md`. Convera,
+    StoneX, Hecto, Coins.ph and Currenxie go through an internal or existing route, not
+    a cold form.
+  - Export for the team: `context-directory/research/unlimit-fx-brokers.xlsx`
+  - *Open:* **what we can disclose pre-NDA** — every counterparty will ask for volumes
+    by currency, and the drafts do not answer it. Same question as on the Klarna thread.
+    Decide before the first reply lands. Also: which markets matter by volume; whether
+    the held rate must be binding or indicative; who owns the outreach.
 
 
 - [ ] **X project — Brazil** *(payments)*
