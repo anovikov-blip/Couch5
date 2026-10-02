@@ -1,6 +1,6 @@
 # Reminders
 
-*Last updated: 2026-09-30*
+*Last updated: 2026-10-02*
 
 Urgency: `[!]` urgent · `[~]` soon · `[ ]` no deadline set
 
@@ -118,6 +118,8 @@ Johnpulle at Sibos. Newsletters, bank notifications and event invitations not li
   - Licensed counterparty that quotes and holds a rate per collected transaction over
     API, then takes the day's local-currency collections and pays us USD. Multi-country
     if possible, else per market.
+  - Treviso (Brazil) is now **Intex Bank Banco de Câmbio** — moved up from corretora to
+    banco de câmbio licence. Update the broker table.
   - Doc: *FX Brokers for Per-Transaction Rate Lock*
     (https://claude.ai/code/artifact/6a58b6b0-f903-40ca-a142-0f37afa22bf2)
   - **Ticket size: USD 100,000 on the settlement leg**, not on each collected payment.
@@ -147,6 +149,40 @@ Johnpulle at Sibos. Newsletters, bank notifications and event invitations not li
     Decide before the first reply lands. Also: which markets matter by volume; whether
     the held rate must be binding or indicative; who owns the outreach.
 
+
+- [!] **Unlimit Brasil — declare eFX in Unicad by 30 October 2026**
+  - Res. BCB 561/2026 took effect 1 Oct 2026. Institutions already authorised that
+    provide eFX must declare that service in their Unicad registration by **30 Oct**.
+    If Unlimit Brasil is providing eFX today and this has not been filed, it is the
+    most urgent item on this list.
+  - Second question, same thread: **which IP modality is Unlimit Brasil authorised
+    in?** An authorised IP can provide eFX directly, without a separate FX-market
+    authorisation, only if it is an emissor de moeda eletrônica, emissor de instrumento
+    de pagamento pós-pago, or credenciador. If it is one of those, we may not need an
+    eFX bank at all.
+  - *Open:* ask Ellen Inhauser / the Brazilian legal team. Both answers change the
+    shape of the bank search below.
+
+- [~] **eFX banks in Brazil — pick a counterparty**
+  - Research: `context-directory/research/brazil-efx-banks.md`
+  - Shortlist: **Braza Bank** (largest exclusive FX bank, FXaaS over API, no competitor
+    on the cap table) · **Travelex Bank** (explicit eFX product for facilitadoras, batch
+    settlement — but being acquired by StoneX, BC approval pending) · **Ebury Bank**
+    (ex-Bexs; Messias Andrade is already our contact — run the Brazil and global
+    conversations as one) · **Ouribank** (sells to facilitadoras by name; Nomad is its
+    FX correspondent) · **Banco BS2** (cambio@bancobs2.com.br).
+  - **Topázio is 30% owned by EBANX.** Minority, non-controlling, but our volumes would
+    sit inside a bank part-owned by a direct competitor. Decide consciously.
+  - **The likely deal-breaker, ask it first:** Genial requires funds to reach the eFX
+    account directly from end clients and card acquirers, not through a third-party
+    payment processor. If that is market standard, the pooled model has a structural
+    problem. Ask every candidate before discussing price.
+  - **Liquidated — do not approach:** Banco Letsbank, Banco Master, Banco Pleno (Master
+    group, Nov 2025 onward), Advanced Corretora, Frente Corretora.
+  - *Open:* pull the authoritative BCB register (bcb.gov.br/?INSTCRED) from an
+    unrestricted connection — this environment cannot reach it, so the list is not
+    provably complete. Banco Rendimento has no published commercial email. B&T's
+    current licence class unconfirmed.
 
 - [ ] **X project — Brazil** *(payments)*
   - *Open:* scope, stage, deadline, who else is involved
