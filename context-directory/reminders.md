@@ -171,19 +171,22 @@ Johnpulle at Sibos. Newsletters, bank notifications and event invitations not li
     provably complete. Banco Rendimento has no published commercial email. B&T's
     current licence class unconfirmed.
 
-- [~] **Projeto Banco Rendimento — eFX service**
+- [!] **Projeto Banco Rendimento — eFX onboarding stalled on our side**
   - Project file: `context-directory/projects/rendimento-efx.md`
-  - **Andréia Cunha wrote to us 24 Sep. Still unanswered, twelve days.** They publish
-    an eFX batch product for facilitadoras, API or SFTP, in the FX market since 1992,
-    independent — no payments competitor on the cap table.
-  - **But she is not the right door.** Her message is a cold mass mailing from the
-    *parcerias* channel offering a commission arrangement. Reply, position us as a
-    BCB-authorised IP doing cross-border collections at scale, and ask her to route us
-    to the **institutional eFX desk**.
-  - She also mentioned **CCNR** — non-resident accounts. That makes Rendimento a sixth
-    NRA candidate. **Ask the licence question first:** if they answer as Ouribank did,
-    the third-party-flows requirement is market standard, not one bank's policy.
-  - Purpose is a **second rail away from Genial**, not a better spread.
+  - **They sent the onboarding pack on 4 September. We have not returned it.** Three
+    documents from Giulia Moura da Silva: eFX Compliance questionnaire, shareholding
+    control form, eFX registration checklist. **They have chased three times — 11, 18
+    and 28 Sep — and heard nothing since.** Ellen has coordinated since 18 Sep.
+  - André Luiz Marques also **asked for monthly volumetria on 4 Sep. Never sent.** Same
+    disclosure question that is holding up Klarna, the FX brokers and Lumx. Four
+    conversations, one undecided internal question.
+  - Real desk: andre.marques@rendimento.com.br (+55 11 98305-1862),
+    giulia.silva@rendimento.com.br, **efx@rendimento.com.br**. Andréia Cunha's 24 Sep
+    mailing is the *parcerias* commission channel — do not answer it as if it were
+    this process.
+  - **Re-read the compliance pack against Res. 561 before returning it** — it was
+    drafted before 1 October.
+  - Purpose is a **second rail away from Genial** (~80% concentration), not a spread.
 
 - [!] **Projeto Pix Direto (Celcoin) — contract deadlock and the RSFN link**
   - Project file: `context-directory/projects/pix-direct.md`

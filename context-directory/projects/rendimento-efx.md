@@ -1,140 +1,158 @@
 # Projeto Banco Rendimento — eFX service
 
 Last updated: 2026-10-06
-Owner: Andrey Novikov · Counterparty: **Banco Rendimento** · Entity: Unlimit Brasil IP
+Owner: Andrey Novikov · Coordinating: Ellen Inhauser · Counterparty: **Banco
+Rendimento (BRSA)** · Entity: Unlimit Brasil
 
 ---
 
-## Why this one is worth opening
+## Status in one line
 
-Three reasons, and the third is the real one.
-
-1. **Rendimento sells exactly our product.** They publish an explicit **eFX
-   solution for mass payments** — *transferências em lote* — aimed at
-   *facilitadoras de pagamento* and payment gateways, with technology
-   integration by **API or SFTP**. That is a description of our settlement leg,
-   written by them, not inferred by us.
-2. **They are an FX house first.** In the exchange market since 1992, the bank
-   over 50 years old, independent, no payments competitor on the cap table —
-   unlike Topázio, 30% of which belongs to EBANX.
-3. **We need a second rail, urgently.** Roughly 80% of approved Brazilian
-   volume sits at Banco Genial — a bank fined R$ 21.6m in August whose CEO was
-   disqualified for four years, and which has withdrawn two product lines from
-   us this quarter. See `projects/brazil.md` §7. Rendimento is not a pricing
-   exercise. It is risk reduction.
+**The onboarding pack arrived on 4 September. We have not returned it. They
+have followed up three times — 11, 18 and 28 September — and heard nothing
+since. This is blocked on us, not on them.**
 
 ---
 
-## Where it stands: nowhere, and that is the whole status
+## What is actually happening
 
-**Andréia Cunha wrote to us on 24 September.** Andrey forwarded it to Rose and
-Thiago on 25 September with no covering text. **Nothing since.** Twelve days.
+> **Correction to the first version of this file.** I wrote that the only
+> contact was Andréia Cunha's cold approach of 24 September, and that the task
+> was to find the institutional eFX desk. Wrong on both counts. The eFX desk
+> was engaged three weeks before that, a call was held, and onboarding was
+> opened. Andréia's mass mailing is noise running alongside a live process.
 
-In the earlier eFX bank research I recorded that Rendimento had no published
-commercial contact and would have to be approached through ABRACAM. That was
-wrong: the contact was already sitting in the mailbox, inbound, unanswered.
+The thread is **"Unlimit <> BRSA - eFX"**, with Rose Del Col, Ellen Inhauser
+and Andrey on our side, and the eFX desk inbox `efx@rendimento.com.br` copied
+throughout.
 
----
+| Date | What happened |
+|---|---|
+| **4 Sep** | Call held. **André Luiz Marques** (Novos Negócios) writes the same day: Giulia will send the onboarding documents — and **asks us for our monthly volumetria** |
+| **4 Sep** | **Giulia Moura da Silva** sends three documents: `eFX - QST Compliance.docx`, `Formulário controle acionário – PAC`, `Checklist – Cadastro EFX.pdf` |
+| **11 Sep** | André follows up: any difficulty completing the forms? |
+| 11 Sep | Rose: *"iremos providenciar e enviar a vocês"* |
+| **18 Sep** | Giulia follows up again |
+| 18 Sep | Rose is travelling; **Ellen takes over coordination of the forms**; Thiago Genda added to copy |
+| **28 Sep** | Giulia follows up a third time |
+| — | **Silence. Today is 6 October — a month since the pack arrived** |
 
-## But Andréia is not the right door — read this before replying
-
-Her message is a **cold mass mailing**. It went to `undisclosed-recipients:;`
-with Andrey on bcc, it is written in generic terms, and the offer is:
-
-> *"remessas internacionais, câmbio turismo, CCNR ou linhas de crédito…
-> Trabalhamos com diversos parceiros e oferecemos um competitivo sistema de
-> comissionamento"*
-
-That is the **partner and reseller channel** — a commission arrangement for
-firms that introduce retail clients. She signs as *Assessora Comercial –
-Parcerias* and dials from Rio Grande do Sul (+55 51). She is not the
-institutional eFX desk.
-
-**Replying to her as if she were would put us in the wrong queue and anchor the
-relationship as a commission deal rather than a corporate eFX mandate.** We
-made the mirror-image mistake available at Ouribank and avoided it only because
-the right person — Deborah Marreiros, *Hub – eFX* — surfaced by accident.
-
-**The move:** reply to Andréia politely, say plainly what we are — a
-BCB-authorised payment institution processing cross-border collections at scale,
-not a retail introducer — and ask her to route us to the **eFX / institutional
-desk**. Warm internal referrals beat cold forms, and she is a warm referral
-even if she is the wrong desk.
+Separately, and unconnected to this, **Andréia Cunha** sent a cold mass mailing
+on 24 September from the *parcerias* channel offering a commission arrangement
+on remessas, câmbio turismo, CCNR and credit lines. It went to undisclosed
+recipients with Andrey on bcc. It is not part of this process and should not be
+answered as though it were — replying there would open a second, retail-shaped
+conversation alongside the institutional one already running.
 
 ---
 
-## One thing in her email that is worth more than the eFX pitch
+## Why the delay matters more than it looks
 
-She listed **CCNR** — *conta corrente de não residente*.
+Three reasons this is not just a slow form.
 
-Rendimento therefore opens **non-resident accounts**, which makes it a **sixth
-candidate for the problem in `projects/brazil.md` §6**, where all five existing
-NRA onboardings are stalled on the same root cause: Ouribank told us outright
-that *"the entity must hold a license that allows it to process third-party
-flows."*
+**It is the second rail.** Roughly 80% of approved Brazilian volume sits at
+Banco Genial — fined R$ 21.6m in August, CEO disqualified for four years, two
+product lines withdrawn from us this quarter. See `projects/brazil.md` §7. Every
+week Rendimento is not onboarded is a week that concentration stands.
 
-Ask Rendimento the licence question **first**, before anything else. If they
-give the same answer as Ouribank, we have confirmed it is the market standard
-rather than one bank's policy — which is itself worth knowing, and would mean
-the fix is structural, not a matter of finding a friendlier bank.
+**The regime changed underneath it on 1 October.** The pack was built before
+Res. BCB 561/2026 took effect. The compliance questionnaire may now be answered
+differently, and the questions we need to ask them have changed — see below.
+Returning the September pack unchanged without re-reading it against the new
+rules risks answering last month's questions.
+
+**Three unanswered follow-ups is a signal.** Banks read silence. André and
+Giulia opened this warmly and have chased politely three times. A fourth
+silence starts to cost goodwill with a counterparty we actually need.
 
 ---
 
-## What to ask, in order
+## The volumetria question, again
 
-The first two are disqualifying. Do not discuss pricing before them.
+André asked for **monthly volume data on day one, 4 September**. It has not been
+sent.
+
+This is the same blocker that is open on the Klarna thread, on the FX broker
+outreach, and with Caio at Lumx: **what may we disclose, to whom, and at what
+stage.** It is now holding up four separate conversations. It is not a
+Rendimento problem; it is an internal decision that nobody has taken.
+
+Rendimento is the easiest case to resolve, because an onboarding compliance
+pack is a confidential regulated process, not a sales conversation — the usual
+pre-NDA caution applies less. Worth deciding here first and letting the answer
+unblock the rest.
+
+---
+
+## What to ask them — now, not in the original pack
+
+The screening questions below are the ones that have broken other Brazilian
+relationships this quarter. Put them in writing alongside the completed forms,
+so that we learn the answers before investing in the onboarding rather than
+after.
 
 1. **Does your eFX account accept funds routed from a third-party payment
    processor, or only directly from end clients and card acquirers?** This is
-   the question that killed the Genial flow and that no bank has yet answered
-   in our favour.
-2. **For a CCNR, must the account holder hold a licence permitting it to
-   process third-party flows?** Ouribank's answer was yes, and it stopped five
-   onboardings.
-3. After 1 October, what is your position on merchants engaged in crypto
-   on-ramp and off-ramp? Genial has withdrawn; Ebury is in discussion with us.
-4. **You are a RippleNet partner.** Resolução BCB 561/2026 bans virtual assets,
+   exactly what stopped the Genial flow from Dock/BPP on 1 October.
+2. **After 1 October, what is your position on merchants engaged in crypto
+   on-ramp and off-ramp?** Genial has withdrawn entirely; Ebury is in
+   discussion with us.
+3. **You are a RippleNet partner.** Res. BCB 561/2026 bans virtual assets,
    stablecoins included, as a settlement means between an eFX provider and its
-   counterpart abroad. How has that changed what you can do for us?
-5. On the eFX batch product: API or SFTP, what are the cut-off times, and what
-   is the settlement cycle — same day or D+1?
-6. Is the rate quoted per transaction binding at settlement or indicative, and
-   how long can it be held?
-7. Is there a ceiling on a single outward transfer or on aggregate daily
-   volume, and how do you handle the per-operation limit?
+   counterpart abroad. What has that changed on your side?
+4. **CCNR / non-resident accounts** — Andréia's mailing lists them. Does the
+   account holder need a licence permitting it to process third-party flows?
+   Ouribank said yes on 21 August, and that answer stopped five separate NRA
+   onboardings. If Rendimento says the same, we will know it is market standard
+   rather than one bank's policy — which settles whether the problem in
+   `projects/brazil.md` §6 is structural.
+5. Batch eFX mechanics: API or SFTP, cut-off times, settlement same day or D+1.
+6. Is the quoted rate binding at settlement or indicative, and how long can it
+   be held?
+7. Ceiling on a single outward transfer and on aggregate daily volume.
 8. Under which *natureza da operação* code would a pooled transfer of collected
    merchant funds to our UAE entity be booked?
 
-Questions 5 to 8 are the standard set from the FX broker work; 1 to 4 are
-specific to what has gone wrong in Brazil this quarter.
-
 ---
 
-## Contacts
+## Contacts — the real desk
 
 | Who | Role | Detail |
 |---|---|---|
-| **Andréia Cunha** | Banco Rendimento — Assessora Comercial, Parcerias. Inbound, 24 Sep, unanswered. **The referral, not the desk** | andreia.cunha@rendimento.com.br · +55 51 99767-7936 |
-| eFX desk | **To be identified** — ask Andréia for the introduction | rendimento.com.br/solucoes-efx |
-| Thiago Genda | Unlimit — Legal & Compliance Brazil | t.genda@unlimit.com |
-| Rose Del Col | Unlimit — Brazil | r.delcol@unlimit.com |
-| Ellen Inhauser | Unlimit — Settlements, runs the daily conversion flow | e.inhauser@unlimit.com |
+| **André Luiz Marques** | Rendimento — Novos Negócios. Led the 4 Sep call | andre.marques@rendimento.com.br · +55 11 3629-7331 · +55 11 98305-1862 |
+| **Giulia Moura da Silva** | Rendimento — Novos Negócios. Sent the pack, has followed up three times | giulia.silva@rendimento.com.br |
+| **eFX desk** | Copied on every message in the thread | **efx@rendimento.com.br** |
+| Andréia Cunha | Rendimento — *parcerias* / commission channel. **Not this process** | andreia.cunha@rendimento.com.br · +55 51 99767-7936 |
+| **Ellen Inhauser** | Unlimit — coordinating the forms since 18 Sep | e.inhauser@unlimit.com · +55 11 98244-3389 |
+| Rose Del Col | Unlimit — opened the relationship | r.delcol@unlimit.com · +55 11 98132-5254 |
+| Thiago Genda | Unlimit — Legal & Compliance Brazil, added 18 Sep | t.genda@unlimit.com |
 
-An institutional presentation PDF — *Apresentação Institucional 2026* — is
-attached to her 24 September email. Worth reading before the first call; it
-should say which of their services are institutional and which are retail.
+**Earlier relationship, worth knowing it exists.** Rendimento and Unlimit have
+history going back to 2025: *Banco Rendimento & Unlimit — Proposta Comercial*
+and *Unlimit — PIX indireto* with **Rafaela Caldas**
+(rafaela.caldas@rendimento.com.br), and a September 2025 exchange with
+**Isaac Esses** (isaac.esses@rendimento.com.br), **Patrícia Chioda**
+(patricia.chioda@rendimento.com.br) and **Eduardo Goni**
+(eduardo.goni@rendimentopay.com.br). This is not a cold relationship — it is a
+warm one we have let go quiet twice.
 
 ---
 
 ## Next steps
 
-1. **Reply to Andréia** — position us correctly and ask for the eFX desk.
-2. **Read the institutional presentation** already in the mailbox.
-3. **Put questions 1 and 2 before anything else.** If the answer to either is
-   the same as Ouribank's, this becomes a structural conversation and should go
-   straight to Pinheiro Neto rather than into a commercial negotiation.
-4. **Keep it in the §7 frame.** The objective is a second rail away from Genial,
-   not a better spread.
+1. **Ask Ellen where the three forms stand** — she has coordinated since
+   18 September. If they are done, they go today. If they are stuck on a
+   specific question, that question is the real blocker and should be named.
+2. **Decide the volumetria disclosure.** It has held this and three other
+   conversations. An onboarding compliance pack is the easiest place to say yes.
+3. **Re-read the compliance questionnaire against Res. 561** before returning
+   it — it was drafted before 1 October.
+4. **Send the eight screening questions with the pack**, so the answers arrive
+   before we are deep in onboarding.
+5. **Acknowledge André and Giulia now**, even before the forms are ready. Three
+   unanswered follow-ups is the part that is costing us something.
+6. **Do not reply to Andréia Cunha** in a way that opens a parallel commercial
+   track.
 
 ---
 
@@ -142,20 +160,22 @@ should say which of their services are institutional and which are retail.
 
 | # | Question | Who answers |
 |---|---|---|
-| 1 | Who runs the institutional eFX desk at Rendimento? | Andréia Cunha |
-| 2 | Does their eFX account take funds from a third-party processor? | Rendimento eFX desk |
-| 3 | Does a CCNR require a third-party-flows licence? | Rendimento |
-| 4 | Position on crypto on-ramp / off-ramp merchants after Res. 561? | Rendimento |
-| 5 | What does their RippleNet relationship look like after the virtual-asset settlement ban? | Rendimento |
-| 6 | Who owns this relationship on our side — Rose, Ellen or Dimitris? | Andrey |
+| 1 | Where are the three onboarding forms, and what is actually blocking them? | Ellen Inhauser |
+| 2 | What volume data may be disclosed in a regulated onboarding pack? | Andrey / Compliance |
+| 3 | Does Rendimento's eFX account accept funds from a third-party processor? | efx@rendimento.com.br |
+| 4 | Their position on crypto on-ramp / off-ramp merchants after Res. 561? | Rendimento |
+| 5 | Does a CCNR require a third-party-flows licence? | Rendimento |
+| 6 | Does the September pack need revising for Res. 561? | Thiago Genda |
+| 7 | Who owns this relationship end to end — Ellen, Rose or Dimitris? | Andrey |
 
 ---
 
 ## Method and limits
 
-The product description comes from Rendimento's own published pages, read via
-web search; this environment's egress proxy blocks rendimento.com.br directly,
-so nothing was read from their site at first hand. The characterisation of
-Andréia's email as a mass mailing is from the message headers — it was sent to
-undisclosed recipients with Andrey on bcc. The institutional PDF attached to it
-has not been opened.
+The timeline and contacts are read directly from the *Unlimit <> BRSA - eFX*
+thread. **The three attached documents have not been opened** — the compliance
+questionnaire, the shareholding-control form and the eFX registration
+checklist are all in Giulia's email of 4 September, and what they actually ask
+has not been assessed here. The product description comes from Rendimento's
+published pages via web search; the egress proxy blocks rendimento.com.br, so
+nothing was read from their site at first hand.
