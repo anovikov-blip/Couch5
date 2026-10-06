@@ -14,11 +14,22 @@ answer
 | # | Workstream | State | Deadline | Next step |
 |---|---|---|---|---|
 | 1 | Serpro — valid CPFs declined on verification | `[!]` live incident | now | Check which API version we call |
-| 2 | Banco Genial — DOC transactions no longer accepted | `[!]` | — | Establish what "DOC" is in our stack |
+| 2 | Genial refuses conversion funds from Dock (BPP) — not eFX-licensed | `[!]` live, daily | — | Reply to Genial; ask Travelex for its written position |
 | 3 | Banco Genial — crypto merchants dropped · own VASP licence or umbrella | `[!]` | **30 Oct 2026** | Legal opinion on the PSAV perimeter · Ebury thread already open |
 | 4 | Additional FX banks | `[~]` | — | Approach Braza, Ebury, Ouribank, BS2 |
 | 5 | eFX — declare the service in Unicad | `[!]` | **30 Oct 2026** | Sign the pending DocuSign on the FX Market licence |
 | 6 | Non-resident accounts (NRA/CNR) — five banks, all stalled | `[!]` | — | Answer Thiago's two open questions; chase Ouribank's Cayman structure |
+
+**Three of these are the same problem wearing different clothes.** Genial will
+not take conversion funds from Dock/BPP because BPP is not eFX-authorised (§2).
+Ouribank will not open a non-resident account because our entity does not hold
+a licence covering third-party flows (§6). Genial requires eFX funds to arrive
+directly from end clients and acquirers rather than through a third-party
+processor (§3, §4). That is one rule being applied three times: **after
+1 October, every institution in the chain has to hold the licence for what it
+is doing, and pass-through structures no longer qualify.** Fixing each
+symptom separately will not work — and §5, which modality Unlimit Brasil is
+actually authorised in, is the question underneath all three.
 
 **Two hard deadlines land on the same day — 30 October 2026, 24 days out.** The
 PSAV authorisation filing and the Unicad eFX declaration are unrelated rules
@@ -95,40 +106,126 @@ whether we also use Datavalid (a separate product, separate contract).
 
 ---
 
-## 2 · Banco Genial no longer accepts DOC transactions
+## 2 · Genial will not accept conversion funds from Dock (BPP)
 
-**Before designing a replacement flow, settle what is actually being refused.**
+> **Correction.** My first pass read this as *DOC*, the Brazilian transfer
+> instrument abolished in 2024, and worked out what might have replaced it.
+> Wrong instrument. It is **Dock**, the banking-as-a-service provider, and
+> **BPP**, the payment institution Dock acquired in 2021 — bank code 301, a
+> direct participant in the SPI. Everything below replaces that section.
 
-**DOC no longer exists in Brazil.** Febraban member banks stopped issuing and
-scheduling DOC on **15 January 2024 at 22:00 BRT**; the last scheduled
-transfers were processed and the systems shut down on **29 February 2024**.
-TEC was discontinued at the same time. Pix had made both redundant. That was
-two and a half years ago and it was market-wide, not a Genial decision.
+### The flow, as it runs today
 
-So "Genial no longer accepts DOC" in October 2026 means one of these, and they
-lead to completely different fixes:
+1. We collect by **Pix as an indirect participant**, through **Dock / BPP**.
+2. Collections land in the **BPP Pix account (72467-9)**.
+3. Ellen Inhauser requests a transfer out of that account to a conversion
+   bank; you approve each one by email; Dock's treasury executes.
+4. The conversion bank converts and the funds leave Brazil.
 
-- **(a) It is our internal label.** A payin or payout method still named "DOC"
-  in our stack that has actually been routing as TED since 2024, and Genial has
-  now stopped accepting whatever it really is. Fix: rename and re-map.
-- **(b) It is a different "DOC".** A document-based or manual instruction flow —
-  settlement against documentation rather than an electronic order. Fix: ask
-  Genial what replaces it.
-- **(c) It is TED under an old name**, and Genial has changed its TED
-  acceptance rules for third-party processors. Fix: this is the same
-  conversation as the eFX account condition in §3 below.
+This is live, daily, and material: individual transfers run **R$ 300k to
+R$ 1.2m**, several a day. R$ 1,230,839.45 on 5 October. R$ 737,864.17 on
+1 October. R$ 782,515.54 plus R$ 377,597.96 on 29 September.
 
-**Next step:** get the actual decline from Genial in writing — the message, the
-reason code, and the method name as Genial writes it. One screenshot settles
-which of the three this is.
+### What broke
 
-**Likely destination regardless:** Pix. It is what replaced DOC, it is
-instant, and it is what the market uses for exactly this. If the flow is
-merchant payouts, Pix with a chave is the default answer; if it is collection,
-we already do Pix.
+Res. BCB 561/2026 came into force on **1 October 2026**. Ellen put the
+question to Dock on 29 September: from 1 October we can only process
+conversion transactions through a company licensed for eFX and regulated by
+the Central Bank.
 
-*Open:* what the flow is for — payin, payout, or settlement; which merchants it
-affects; what the volume is.
+**Dock answered on 5 October, in writing, through Alan Paiva:**
+
+> *"Please be advised that Dock is not authorized to conduct eFX activities."*
+
+Genial's position follows from that, as Dimitris reported the same day:
+
+> *"Genial inform us that can not accept funds from BPP for any conversion
+> because claim that BPP has not the relevant license."*
+
+So this is not Genial being difficult. Our Pix collection rail sits behind an
+institution that is not authorised for eFX, and from 1 October that breaks the
+chain at the conversion step.
+
+**It was called five months early and nobody acted.** Thiago circulated the
+Res. 561 summary on **11 May 2026**, flagging that all eFX funds must be
+received by Unlimit in an account at an authorised bank. Ellen, 28 September:
+*"That email went unanswered, and there is a crucial point in item 6:
+'Exclusive bank account…'"*
+
+### What we have actually done about it so far — and why it is a risk, not a fix
+
+Look at where the money went either side of 1 October. Before: Banco Genial
+(125), ag. 0001, c/c 4599755-1. After: **Travelex Banco de Câmbio (095),
+ag. 0001, c/c 3600-0** — the 1 October and 5 October transfers both went
+there.
+
+In other words, the volume moved to the bank that has not objected yet.
+**Genial and Travelex are reading the same rule differently, and we have
+concentrated the flow on the more permissive reading.** Nobody has written
+that down as a decision. If Travelex adopts Genial's position — and Travelex
+is a *banco de câmbio*, so it has more reason to be strict, not less — the
+Pix collection-to-conversion chain stops with no fallback.
+
+**This is the thing to get ahead of.** Ask Travelex directly, in writing,
+whether they accept conversion funds routed from BPP post-561. A "no" we
+provoke on our own timetable is survivable. A "no" that arrives on a Tuesday
+morning with R$ 1.2m in flight is not.
+
+### The alternative on the table — CIP via BTG
+
+Dimitris proposed on 5 October: convert the **CIP traffic we already receive
+into our BTG account**, which holds the proper licence, rather than routing
+through BPP. Thiago's legal read, 6 October:
+
+> *"I am not aware of any legal restrictions regarding the use of our BTG
+> account for operations other than settlements received via CIP, so this
+> appears to be a viable alternative. **However, please keep in mind that the
+> funds from Pix transactions must be received directly into the BTG account
+> if that is the plan. They cannot pass through the Dock account first before
+> going to BTG. If Genial notices this flow, they will likely continue to
+> refuse the transactions.**"*
+
+That caveat is the whole problem. The CIP route works **for CIP traffic**. It
+does not rescue the Pix traffic unless Pix collections land **directly** in
+BTG — which means replacing or bypassing Dock/BPP as the Pix rail, not just
+re-pointing the outbound transfer. Washing the same funds through BTG on the
+way out is not a fix; it is the same flow with an extra hop, and Thiago says
+so plainly.
+
+**Both of these emails are unread in your inbox**, and Dimitris marked his
+High Importance and asked Thiago to clear it legally *before anyone replies to
+Genial in the WhatsApp group*. Thiago has now answered. The reply to Genial is
+the next move and it is waiting on you.
+
+### Options, in the order I would test them
+
+1. **Become a direct Pix participant, or move to a rail whose institution is
+   eFX-authorised.** The real fix. Long lead time, so start the clock now.
+2. **Pix collections directly into BTG.** Thiago's condition — no Dock hop.
+   Needs Dock and BTG to say whether it is operationally possible at all.
+3. **Convert at an institution that accepts the BPP chain.** This is what we
+   are doing by default with Travelex. Fine as a bridge; dangerous as a plan,
+   and only if Travelex confirms it in writing.
+4. **Ask Dock whether it intends to seek eFX authorisation.** They have until
+   31 May 2027 to file. If they are going to, that changes the calculus; if
+   they are not, our Pix rail has a permanent ceiling and we should know now.
+
+### Contacts
+
+| Who | Role | Detail |
+|---|---|---|
+| **Alan Paiva** | Dock — gave the written "not authorized for eFX" | alan.silva@dock.tech |
+| Elton Rezende | Dock — executes the daily transfers | elton.rezende@dock.tech |
+| David Alves | Dock — treasury | david.alves@dock.tech |
+| William Monte | Dock | william.monte@dock.tech |
+| Bruno Fernandes | Dock — indirect-Pix contract billing | bruno.fernandes@dock.tech |
+| **Ellen Inhauser** | Unlimit — Settlements Officer, runs this daily | e.inhauser@unlimit.com · +55 11 98244-3389 |
+| Dimitris Dimitriou | Unlimit — proposed the CIP route | d.dimitriou@unlimit.com |
+| Thiago Genda | Unlimit — Legal & Compliance Brazil | t.genda@unlimit.com |
+
+*Open:* what share of Brazilian collection volume runs through BPP versus CIP;
+whether Dock intends to apply for eFX authorisation; whether Pix can land
+directly in BTG at all; and what Travelex's written position is.
 
 ---
 
@@ -407,6 +504,10 @@ NRA serves everything or we need several.
 | 13 | What does Ouribank's Cayman-branch NRA structure actually look like? | Deborah Marreiros | §6 |
 | 14 | Do we still pursue Genial for the NRA, and keep hunting a Mexican law firm? | Andrey | §6 |
 | 15 | Does Res. BCB 575/2026 open a foreign-currency account option we have not considered? | Brazilian legal | §6 |
+| 16 | Will Travelex accept conversion funds routed from BPP after 1 Oct? Get it in writing | Leandro Reis / new RM | §2 |
+| 17 | Does Dock intend to apply for eFX authorisation before 31 May 2027? | Alan Paiva, Dock | §2 |
+| 18 | Can Pix collections land directly in BTG, bypassing Dock? | Dock + BTG + product | §2 |
+| 19 | What share of Brazilian volume is BPP/Pix versus CIP? | Ellen / Finance | §2 |
 
 ---
 

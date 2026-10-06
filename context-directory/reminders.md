@@ -179,9 +179,14 @@ Johnpulle at Sibos. Newsletters, bank notifications and event invitations not li
     call before opening a ticket. Also check we are not declining on `situação
     cadastral` 4 — "pendente de regularização" is common and is not a bad CPF.
     Serpro: css.serpro@serpro.gov.br · 0800 728 2323 · comercial@serpro.gov.br
-  - **Genial stopped accepting DOC.** DOC was abolished market-wide — Febraban stopped
-    issuance 15 Jan 2024, systems shut 29 Feb 2024. Establish what "DOC" actually is in
-    our stack before designing a replacement. Get the decline in writing from Genial.
+  - **Genial refuses conversion funds from Dock (BPP)** — live daily flow, R$ 300k–1.2m
+    per transfer. Dock confirmed in writing 5 Oct (Alan Paiva): *"Dock is not authorized
+    to conduct eFX activities."* Thiago warned about this on 11 May and the email went
+    unanswered. **Since 1 Oct the volume has quietly moved to Travelex**, which has not
+    objected yet — that is exposure, not a solution. **Ask Travelex for its written
+    position before it refuses mid-flow.** The CIP-via-BTG alternative only rescues CIP
+    traffic: Thiago's condition is that Pix must land *directly* in BTG, never via Dock.
+    Two unread emails waiting on you; the reply to Genial is blocked on it.
   - **Genial dropped crypto merchants.** Decide own SPSAV licence vs restructuring so we
     never touch the asset. **Prior question first: are we even inside the PSAV
     perimeter?** Questions already drafted for counsel —
