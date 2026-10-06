@@ -15,9 +15,9 @@ answer
 |---|---|---|---|---|
 | 1 | Serpro — valid CPFs declined on verification | `[!]` live incident | now | Check which API version we call |
 | 2 | Banco Genial — DOC transactions no longer accepted | `[!]` | — | Establish what "DOC" is in our stack |
-| 3 | Banco Genial — crypto merchants dropped · own VASP licence or umbrella | `[!]` | **30 Oct 2026** | Legal opinion on whether we are in the PSAV perimeter |
+| 3 | Banco Genial — crypto merchants dropped · own VASP licence or umbrella | `[!]` | **30 Oct 2026** | Legal opinion on the PSAV perimeter · Ebury thread already open |
 | 4 | Additional FX banks | `[~]` | — | Approach Braza, Ebury, Ouribank, BS2 |
-| 5 | eFX — declare the service in Unicad | `[!]` | **30 Oct 2026** | Confirm with legal whether this applies to us |
+| 5 | eFX — declare the service in Unicad | `[!]` | **30 Oct 2026** | Sign the pending DocuSign on the FX Market licence |
 
 **Two hard deadlines land on the same day — 30 October 2026, 24 days out.** The
 PSAV authorisation filing and the Unicad eFX declaration are unrelated rules
@@ -198,6 +198,20 @@ institution for the reais leg. That is a commercial and contractual
 restructuring, and it may be what we are already doing — which loops back to
 the perimeter question.
 
+### Already in motion — do not start this from zero
+
+**Messias Andrade at Ebury has an open thread with you titled "Unlimit & Ebury
+(efx for crypto)"**, 29 September. That is the exact product Genial just
+withdrew, offered by a licensed banco de câmbio, and the conversation is
+already live. It is waiting on one thing: Messias asked for a copy of your
+**Brazilian RNM** for ID validation. That is a personal identity document —
+confirm the request is genuine with him directly and send it through a secure
+channel, not as an email attachment.
+
+This does not answer the licensing question, but it may answer the commercial
+one. If Ebury will bank the crypto merchant flow under Res. 561, the urgency
+shifts from "replace the product" to "get the perimeter opinion right".
+
 ### Recommendation
 
 Do not pick between A and B yet. **Get the perimeter opinion first**, this
@@ -261,8 +275,15 @@ pagamento pós-pago*, or a *credenciador*.
 **Which modality is Unlimit Brasil authorised in?** If it is one of those
 three, §4 becomes a question of pricing and reach rather than of permission.
 
+**There is an unsigned DocuSign envelope on this.** *"Unlimit IP: assistance
+obtaining the FX Market licence"* — Yulia checked it and asked you to sign on
+30 September. It has been sitting since. If that engagement is the route to the
+FX market authorisation, signing it is the unblock, and it has been waiting six
+days.
+
 *Open:* both answers sit with the Brazilian legal team. Ask alongside §3 — same
-people, same week.
+people, same week. Confirm whether the DocuSign engagement covers the Unicad
+declaration too, or only the licence application.
 
 ---
 
@@ -279,6 +300,8 @@ people, same week.
 | 7 | Has the Unicad eFX declaration been filed? | Brazilian legal | §5 |
 | 8 | What may we disclose pre-NDA to FX counterparties? | Internal | §4 |
 | 9 | Is Genial's condition — funds direct from end clients and acquirers, not via a third-party processor — market standard? | The five banks in §4 | §4, §2 |
+| 10 | Will Ebury bank the crypto merchant flow under Res. 561? | Messias Andrade | §3 |
+| 11 | Does the pending DocuSign engagement cover the Unicad declaration, or only the licence? | Yulia / Brazilian legal | §5 |
 
 ---
 
