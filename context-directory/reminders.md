@@ -210,9 +210,17 @@ Johnpulle at Sibos. Newsletters, bank notifications and event invitations not li
     third-party flows, and promised a flow document that never came — **that chase is
     the highest-value email on the project**. Deborah Marreiros,
     deborah.marreiros@ouribank.com, +55 11 97767-0003.
+  - **Genial: ~80% of approved Brazilian volume sits at a sanctioned bank.** BCB fined
+    Genial R$ 21.6m on 12 Aug and disqualified CEO André Schwartz for four years —
+    grounds were failure to certify FX clients, Coaf reporting and AML controls. That
+    explains every refusal they have given us; there is no commercial argument that
+    moves them. **Biggest unmanaged risk in the Brazil book.** Kirill approved our own
+    FX licence back in early September — the Pinheiro Neto engagement is that decision
+    being executed.
+  - **Mexican legal opinion is done and sent to Genial** — Jorge Luna, KNP
+    (jluna@knp.com.mx), paid 29 Sep. Chase Genial's review, not a lawyer.
   - **Thiago Genda asked you two direct questions on 30 Jul and 4 Aug. Both emails are
-    still unread.** Do we keep pursuing Genial for the NRA — and stop the Mexican law
-    firm hunt, Pinheiro Neto can take it; and help him chase Dimitris and Ellen for the merchant details Ouribank
+    still unread.** Do we keep pursuing Genial for the NRA; and help him chase Dimitris and Ellen for the merchant details Ouribank
     asked for. Also: the **Ebury NRA proposal has been with you since 30 July**.
   - *Open:* nine questions tracked in the project file's register.
 

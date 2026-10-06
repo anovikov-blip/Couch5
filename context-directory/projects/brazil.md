@@ -18,7 +18,8 @@ answer
 | 3 | Banco Genial — crypto merchants dropped · own VASP licence or umbrella | `[!]` | **30 Oct 2026** | Legal opinion on the PSAV perimeter · Ebury thread already open |
 | 4 | Additional FX banks | `[~]` | — | Approach Braza, Ebury, Ouribank, BS2 |
 | 5 | eFX — declare the service in Unicad | `[!]` | **30 Oct 2026** | Pinheiro Neto engaged 5 Oct — confirm Unicad is in scope |
-| 6 | Non-resident accounts (NRA/CNR) — five banks, all stalled | `[!]` | — | Answer Thiago's two open questions; chase Ouribank's Cayman structure |
+| 6 | Non-resident accounts (NRA/CNR) — five banks, all stalled | `[!]` | — | Chase Ouribank's Cayman structure; Genial opinion now sent |
+| 7 | Genial concentration — ~80% of approved volume at a sanctioned bank | `[!]` | — | Put a current number on the exposure |
 
 **Three of these are the same problem wearing different clothes.** Genial will
 not take conversion funds from Dock/BPP because BPP is not eFX-authorised (§2).
@@ -369,7 +370,9 @@ week, because:
 a top-tier Brazilian firm, and this is squarely their work. Do not go hunting
 for separate counsel, and do not keep looking for a Mexican firm for the Genial
 legal opinion before PN has given a view. Flag 30 October explicitly, and ask
-the Res. 520 functional test in the three limbs above.
+the Res. 520 functional test in the three limbs above. (The separate Mexican
+opinion for the Genial NRA is done — Jorge Luna at KNP delivered it and it has
+been sent to Genial. That was the §6 question, not this one.)
 
 *Open:* how much revenue the crypto merchant book represents; whether those
 merchants are themselves authorised or filing; who at Genial can tell us
@@ -494,7 +497,7 @@ As of Thiago's last written update, 4 August 2026, plus what has happened since.
 |---|---|---|---|
 | **Ouribank** | UNL BR / group | **Declined 21 Aug** on licence grounds; Cayman-branch alternative offered | Their flow document never came. Also: merchant details Ouribank asked for were never sent — Thiago chased Dimitris and Ellen twice |
 | **Travelex** | UNL MX | Stalled since 16 June | PoA proving Andrey can represent UNL MX **in Brazil**, apostilled and sworn-translated. Lorena Chávez confirmed no such PoA exists expressly. Compliance call promised "next week at the latest" on 16 June — nothing since. A new relationship manager took over in early August and promised a final position on the UNL MX NRA "by the end of the week" |
-| **Genial** | UNL MX | Waiting on a Mexican legal opinion | Lorena could not find a Mexican firm specialised in payments. Thiago asked you twice whether to keep looking — **neither message was answered**. Separately, the KNP legal opinion is waiting on your sign-off before Jorge Luna issues the final version |
+| **Genial** | UNL MX | **Legal opinion sent — ball with Genial** | Resolved. **Jorge Luna at KNP** (jluna@knp.com.mx) produced it; Enrique Pina sent proof of payment 29 Sep and Jorge confirmed receipt. The opinion has now gone to Genial. Next step is chasing Genial's review, not finding a lawyer |
 | **Ebury** | — | Proposal with you since 30 July | Documentation and commercial proposal were sent to you for review. **Still with you, ten weeks** |
 | **Braza** | — | Call on the proposed flow | You and Dimitris are in a WhatsApp group with them |
 
@@ -503,12 +506,11 @@ As of Thiago's last written update, 4 August 2026, plus what has happened since.
 Both of his update emails — 30 July and 4 August — are **still unread**. Each
 asks you something directly:
 
-1. **Genial:** *"Do we still want to move forward with them?"* and *"I am
-   waiting guidance on whether we should keep looking for an external lawyer
-   in Mexico."* Given that Genial has since dropped crypto merchants and the
-   DOC flow, this answer may now be obvious — but he still needs it.
+1. **Genial:** *"Do we still want to move forward with them?"* — the lawyer
+   question is now moot, KNP delivered and the opinion is with Genial. But the
+   first half still stands, and §7 below makes it sharper, not easier.
 2. **Ouribank:** *"Please help me follow up with Dimitris and Ellen"* on the
-   merchant details Ouribank requested.
+   merchant details Ouribank requested. **Still open.**
 
 ### Contacts
 
@@ -521,6 +523,9 @@ asks you something directly:
 | Banco Rendimento | **Andreia Cunha** | andreia.cunha@rendimento.com.br — inbound partnership approach, 24 Sep, unanswered |
 | Internal | Thiago Genda, Legal & Compliance Officer Brazil | t.genda@unlimit.com — owns all five |
 | Internal | Dolores (Lorena) Chávez | d.chavez@unlimit.com — Mexican corporate documents |
+| **KNP (Mexico)** | **Jorge Luna** — wrote the legal opinion for Genial | jluna@knp.com.mx |
+| Internal | Olegs Bulgakovs, Head of Treasury | o.bulgakovs@unlimit.com · +357 25388614 — has his own "NRA accounts in Brazil" thread |
+| Internal | Enrique Pina | e.pina@unlimit.com — handled the KNP payment |
 
 ### Next steps, in order
 
@@ -540,6 +545,83 @@ UNL MX, Unlimit Brasil, the UAE entity, or a holding company; and whether one
 NRA serves everything or we need several.
 
 ---
+## 7 · Genial — concentration and counterparty risk
+
+This is not a workstream anyone opened. It is the thing that sits underneath
+§2, §3 and §6, and it should be looked at directly before any more energy goes
+into repairing the Genial relationship.
+
+### What the regulator did to them
+
+On **12 August 2026** the Banco Central fined Banco Genial **R$ 21.6m across
+three penalties**, and its Administrative Sanctioning Committee (Copas)
+**disqualified André Schwartz, the CEO, for four years**, with a personal fine
+of R$ 516k. The bank said it would appeal and seek suspensive effect.
+
+The grounds matter more than the numbers. The findings were:
+
+- failures in **certifying the qualification of foreign exchange clients**
+- problems **reporting suspicious operations to Coaf**
+- deficiencies in **AML policies, procedures and internal controls**
+
+Mostly covering operations from 2020–2021.
+
+### Why that explains everything else on this page
+
+A bank fined for failing to verify that its FX clients were qualified to do
+what they were doing is going to be unusually strict about exactly that, for
+years. That is why Genial refuses funds from BPP (§2), why it requires funds
+to arrive directly from end clients and acquirers rather than a third-party
+processor (§3), and why it wants a Mexican legal opinion before opening a
+non-resident account (§6).
+
+**Genial is not being difficult. Genial is under sanction and is doing
+precisely what the Central Bank fined it for not doing.** That reframes the
+negotiation: there is no commercial argument that will move them, and no
+relationship manager who can make an exception. Every ask has to be answered
+with a document.
+
+### The concentration number
+
+Dimitris, 31 August: *"currently in Genial we have almost **80% of our total
+approved** [volume]."*
+
+So roughly four fifths of approved Brazilian volume sits with a bank that has
+just been fined R$ 21.6m, whose CEO has been disqualified for four years and is
+appealing, and which has already withdrawn two product lines from us this
+quarter. Ellen said on the same thread that she would resume the Ebury account
+opening to find a replacement.
+
+**This is the single largest unmanaged risk in the Brazil book**, and it is not
+on anyone's list as a risk — only as a series of individual problems.
+
+### What was already decided, and should be checked
+
+Thiago, 1 September: *"we should start evaluating other banks for the FX
+transfers to prevent future issues. **Kirill approved moving forward with our
+own FX license**, but this is a long process…"*
+
+So the own-licence route (§5) is not a lawyer's suggestion — **it carries CEO
+approval from early September**, and the Pinheiro Neto engagement signed on
+5 October is the execution of that decision. Worth saying out loud, because it
+means §5 is funded and mandated, and the only open question is scope and speed.
+
+### Next steps
+
+1. **Put a number on it.** What share of Brazilian volume, and which merchants,
+   depend on Genial today — Dimitris's 80% is five weeks old and two product
+   lines have gone since.
+2. **Treat §4 as risk reduction, not procurement.** Braza, Ebury, Ouribank and
+   BS2 are a second rail, not a price exercise.
+3. **Watch the appeal.** If the suspensive effect fails and Schwartz has to
+   step down, Genial's posture may change again — in either direction.
+
+*Open:* whether Genial's sanction affects its ability to hold our funds at all,
+as opposed to its appetite; and whether our own compliance team has assessed
+the bank since August.
+
+---
+
 ## Open questions register
 
 | # | Question | Who answers | Blocks |
@@ -567,6 +649,9 @@ NRA serves everything or we need several.
 | 21 | Does our flow fail all three limbs of the Res. 520 functional test — control of instruments, executing transfers, blocking access? | Pinheiro Neto | §3 |
 | 22 | Does the 270-day foreign-entity transfer rule (by 30 Oct) catch any Unlimit entity outside Brazil? | Pinheiro Neto | §3 |
 | 23 | Does the Pinheiro Neto engagement cover the Unicad eFX declaration, or only the licence? | Yulia / PN | §5 |
+| 24 | What share of Brazilian volume, and which merchants, depend on Genial today? | Dimitris / Ellen | §7 |
+| 25 | Has our compliance team assessed Genial since the 12 Aug sanction? | Anna Jacobson | §7 |
+| 26 | Does Genial's sanction affect its ability to hold our funds, or only its appetite? | Pinheiro Neto / compliance | §7 |
 
 ---
 
