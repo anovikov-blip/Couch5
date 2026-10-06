@@ -78,7 +78,7 @@ over 48h, so this one reaches back a week and the list is correspondingly longer
   virtual office lease has expired and they have had no feedback.
 - [~] **BTG Pactual** — *Migração - Novo Portal Cash Management* · 28 Sep — chasing
   progress on the regularisation.
-- [~] **Celcoin** — unpaid invoices chased 28 Sep (Rose and you).
+- [~] **Celcoin** — unpaid invoices followed up 28 Sep (Rose and you).
 - [~] **Marco Torres** — *Re: URGENT Colombia BBVA acquirer situation* · 25 Sep — BBVA's
   standard fees, improvable once volumes are shared.
 - [~] **Fabio (Unblock)** — next steps after the call, addressed to Rose and Thiago.
@@ -205,10 +205,10 @@ Johnpulle at Sibos. Newsletters, bank notifications and event invitations not li
     answered.
   - **Non-resident accounts — all five stalled on one root cause.** Ouribank said it
     outright on 21 Aug: *"the entity must hold a license that allows it to process
-    third-party flows."* Not a document chase, a structuring decision. They offered
+    third-party flows."* Not a paperwork problem, a structuring decision. They offered
     their new **Cayman Islands branch**, which holds an NRA in Brazil and supports
-    third-party flows, and promised a flow document that never came — **that chase is
-    the highest-value email on the project**. Deborah Marreiros,
+    third-party flows, and promised a flow document that never came — **that follow-up
+    is the highest-value email on the project**. Deborah Marreiros,
     deborah.marreiros@ouribank.com, +55 11 97767-0003.
   - **Genial: ~80% of approved Brazilian volume sits at a sanctioned bank.** BCB fined
     Genial R$ 21.6m on 12 Aug and disqualified CEO André Schwartz for four years —
@@ -218,9 +218,9 @@ Johnpulle at Sibos. Newsletters, bank notifications and event invitations not li
     FX licence back in early September — the Pinheiro Neto engagement is that decision
     being executed.
   - **Mexican legal opinion is done and sent to Genial** — Jorge Luna, KNP
-    (jluna@knp.com.mx), paid 29 Sep. Chase Genial's review, not a lawyer.
+    (jluna@knp.com.mx), paid 29 Sep. Press Genial on its review — no lawyer needed now.
   - **Thiago Genda asked you two direct questions on 30 Jul and 4 Aug. Both emails are
-    still unread.** Do we keep pursuing Genial for the NRA; and help him chase Dimitris and Ellen for the merchant details Ouribank
+    still unread.** Do we keep pursuing Genial for the NRA; and help him get Dimitris and Ellen to send the merchant details Ouribank
     asked for. Also: the **Ebury NRA proposal has been with you since 30 July**.
   - *Open:* nine questions tracked in the project file's register.
 

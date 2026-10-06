@@ -18,7 +18,7 @@ answer
 | 3 | Banco Genial — crypto merchants dropped · own VASP licence or umbrella | `[!]` | **30 Oct 2026** | Legal opinion on the PSAV perimeter · Ebury thread already open |
 | 4 | Additional FX banks | `[~]` | — | Approach Braza, Ebury, Ouribank, BS2 |
 | 5 | eFX — declare the service in Unicad | `[!]` | **30 Oct 2026** | Pinheiro Neto engaged 5 Oct — confirm Unicad is in scope |
-| 6 | Non-resident accounts (NRA/CNR) — five banks, all stalled | `[!]` | — | Chase Ouribank's Cayman structure; Genial opinion now sent |
+| 6 | Non-resident accounts (NRA/CNR) — five banks, all stalled | `[!]` | — | Press Ouribank for its Cayman structure; Genial opinion now sent |
 | 7 | Genial concentration — ~80% of approved volume at a sanctioned bank | `[!]` | — | Put a current number on the exposure |
 
 **Three of these are the same problem wearing different clothes.** Genial will
@@ -469,7 +469,7 @@ On **21 August 2026** Deborah Marreiros at Ouribank declined our onboarding:
 
 That is almost certainly the same wall the other four are standing behind,
 whether or not they have said it as directly. We have been treating five
-separate onboardings as five separate document chases. **It is one problem:
+separate onboardings as five separate paperwork exercises. **It is one problem:
 the entity we are presenting does not hold a licence covering third-party
 flows.** Chasing documents will not fix it. Choosing the right entity, or the
 right structure, will.
@@ -495,7 +495,7 @@ As of Thiago's last written update, 4 August 2026, plus what has happened since.
 
 | Bank | Entity | State | What is actually blocking it |
 |---|---|---|---|
-| **Ouribank** | UNL BR / group | **Declined 21 Aug** on licence grounds; Cayman-branch alternative offered | Their flow document never came. Also: merchant details Ouribank asked for were never sent — Thiago chased Dimitris and Ellen twice |
+| **Ouribank** | UNL BR / group | **Declined 21 Aug** on licence grounds; Cayman-branch alternative offered | Their flow document never came. Also: merchant details Ouribank asked for were never sent — Thiago followed up with Dimitris and Ellen twice |
 | **Travelex** | UNL MX | Stalled since 16 June | PoA proving Andrey can represent UNL MX **in Brazil**, apostilled and sworn-translated. Lorena Chávez confirmed no such PoA exists expressly. Compliance call promised "next week at the latest" on 16 June — nothing since. A new relationship manager took over in early August and promised a final position on the UNL MX NRA "by the end of the week" |
 | **Genial** | UNL MX | **Legal opinion sent — ball with Genial** | Resolved. **Jorge Luna at KNP** (jluna@knp.com.mx) produced it; Enrique Pina sent proof of payment 29 Sep and Jorge confirmed receipt. The opinion has now gone to Genial. Next step is chasing Genial's review, not finding a lawyer |
 | **Ebury** | — | Proposal with you since 30 July | Documentation and commercial proposal were sent to you for review. **Still with you, ten weeks** |
@@ -534,7 +534,7 @@ asks you something directly:
 2. **Answer Thiago's two questions**, which have been open since 30 July.
 3. **Decide which entity applies for the NRA** — the licence-for-third-party-
    flows requirement is the root cause, and it is a structuring decision, not a
-   document chase. Tie it to the §5 question about Unlimit Brasil's own
+   paperwork exercise. Tie it to the §5 question about Unlimit Brasil's own
    authorised modality.
 4. **Review the Ebury proposal** that has been with you since 30 July.
 5. **Read Res. BCB 575/2026** on foreign-currency accounts before fixing the

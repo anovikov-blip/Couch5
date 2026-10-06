@@ -190,7 +190,7 @@ the model works at consumer scale.
 license that allows it to process third-party flows", and offered an
 alternative: their new **Cayman Islands branch**, which holds an NRA in Brazil
 and can support third-party flows. The promised flow document never arrived.
-Chase it — see `projects/brazil.md` §6.
+Follow this up — see `projects/brazil.md` §6.
 
 Ouribank has also published its own explainer on what Res. 561 changes, which
 suggests the regulatory change is being handled as a commercial opportunity
