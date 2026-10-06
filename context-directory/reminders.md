@@ -173,8 +173,6 @@ Johnpulle at Sibos. Newsletters, bank notifications and event invitations not li
 
 - [!] **Projeto Pix Direto (Celcoin) — contract deadlock and the RSFN link**
   - Project file: `context-directory/projects/pix-direct.md`
-  - *(You called it "SoCoin" — everything in the mailbox is **Celcoin**. Tell me if
-    SoCoin is a separate party.)*
   - **Deadlock to break, costing a week already:** you asked twice for the draft so
     Legal could start; Celcoin only drafts the aditivo **after** formal acceptance.
     Fix: accept the commercial terms in writing, expressly subject to Legal review.

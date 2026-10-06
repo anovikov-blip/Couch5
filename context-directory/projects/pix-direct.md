@@ -3,13 +3,6 @@
 Last updated: 2026-10-06
 Owner: Andrey Novikov · Counterparty: **Celcoin** · Entity: Unlimit Brasil IP
 
-> **On the name.** You called this "SoCoin". There is no SoCoin anywhere in the
-> mailbox, Drive or the Brazilian market. Everything you described — the Pix
-> Direct contract, the optic-cable question — sits in the **Celcoin** threads,
-> and you asked Danielle Paiva about optic cable providers on 29 September and
-> again on 2 October. I have written this as Celcoin. If SoCoin is a genuinely
-> separate party I could not find, say so and I will split the file.
-
 ---
 
 ## What this project actually is
