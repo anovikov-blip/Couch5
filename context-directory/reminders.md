@@ -171,6 +171,29 @@ Johnpulle at Sibos. Newsletters, bank notifications and event invitations not li
     provably complete. Banco Rendimento has no published commercial email. B&T's
     current licence class unconfirmed.
 
+- [!] **Projeto Pix Direto (Celcoin) — contract deadlock and the RSFN link**
+  - Project file: `context-directory/projects/pix-direct.md`
+  - *(You called it "SoCoin" — everything in the mailbox is **Celcoin**. Tell me if
+    SoCoin is a separate party.)*
+  - **Deadlock to break, costing a week already:** you asked twice for the draft so
+    Legal could start; Celcoin only drafts the aditivo **after** formal acceptance.
+    Fix: accept the commercial terms in writing, expressly subject to Legal review.
+    Kirill is waiting on a legal summary that cannot exist until then.
+  - Terms: scope moves **Pix Indireto → Pix Direto**, **R$ 0,012 per transaction**,
+    conditional on clearing **R$ 478.333,33**. Final board round 5 Oct (unread):
+    **DERE minimum fee fully waived — R$ 120k/year**; Pix Automático and the October
+    minimum both refused.
+  - **Reopen the 24-month lock-in and the early-termination clause in the aditivo** —
+    after signature they are locked for another two years.
+  - **Optic cable:** we do not lay cable. RSFN has two homologated carriers, **RTM and
+    Embratel**, Turn Key install at an address we name. Celcoin's native integration
+    is **through RTM** — Danielle already said so on 29 Sep. Five specific questions
+    for them are in the file.
+  - Also needed: **Conta PI** at the BCB, **CERTPIA** and **CERTPIC** certificates,
+    notice to Deinf/CSTI, homologation testing. Pull the BCB *Roteiro* v1.11, *Manual
+    de Redes do SFN* v9.3 and *DRT-Redes* v9.4 before ordering anything.
+  - **This is the real fix for the Dock/BPP problem in the Brazil file (§2).**
+
 - [!] **Projeto Brasil — four workstreams, two deadlines on 30 Oct**
   - Project file: `context-directory/projects/brazil.md`
   - **Serpro — valid CPFs declined.** Likely cause found: Consulta CPF **v3** (live

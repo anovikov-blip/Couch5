@@ -224,7 +224,12 @@ thread too.
 ### Options, in the order I would test them
 
 1. **Become a direct Pix participant, or move to a rail whose institution is
-   eFX-authorised.** The real fix. Long lead time, so start the clock now.
+   eFX-authorised.** The real fix, and **it is already a live project** —
+   see `projects/pix-direct.md`. Celcoin has proposed moving our scope from
+   Pix Indireto to Pix Direto at R$ 0.012 per transaction; the contract is
+   stuck in a deadlock and the RSFN connection has not been ordered. Direct
+   participation takes BPP out of the chain entirely. Long lead time, so the
+   clock on §2 and the clock on that project are the same clock.
 2. **Pix collections directly into BTG.** Thiago's condition — no Dock hop.
    Needs Dock and BTG to say whether it is operationally possible at all.
 3. **Convert at an institution that accepts the BPP chain.** This is what we
