@@ -204,10 +204,12 @@ settlement leg. Also a RippleNet partner in the region.
 
 - rendimento.com.br/solucoes-efx
 
-**Contact found in the mailbox, not on the web:** **Andreia Cunha** —
-andreia.cunha@rendimento.com.br — approached us about a partnership on
-24 September 2026. That email has not been answered. It is the warmest lead on
-this page and it is inbound.
+**Contact found in the mailbox, not on the web:** **Andréia Cunha** —
+andreia.cunha@rendimento.com.br, +55 51 99767-7936 — approached us on
+24 September 2026, still unanswered. But note: hers is a cold mass mailing from
+the *parcerias* channel offering a commission arrangement, not the institutional
+eFX desk. Treat her as the referral, not the counterparty. Own project file:
+`projects/rendimento-efx.md`
 
 ### Banco Topázio
 

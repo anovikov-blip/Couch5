@@ -400,6 +400,9 @@ Shortlist, in order:
 3. **Ouribank** — sells to facilitadoras by name; Nomad is its FX
    correspondent. +55 11 4081-4444
 4. **Banco BS2** — cambio@bancobs2.com.br
+4b. **Banco Rendimento** — approached *us* on 24 Sep and has not been answered.
+   Publishes an eFX batch product for facilitadoras, API or SFTP, in FX since
+   1992, independent. Own project file: `projects/rendimento-efx.md`
 5. **Travelex Bank** — explicit eFX product for facilitadoras, batch settlement
    over API/SFTP. infocomercial@travelexbank.com.br
    *Being acquired by StoneX: announced 12 Aug 2026, CADE cleared, BCB pending.
@@ -544,6 +547,13 @@ asks you something directly:
 4. **Review the Ebury proposal** that has been with you since 30 July.
 5. **Read Res. BCB 575/2026** on foreign-currency accounts before fixing the
    structure.
+
+**A sixth candidate surfaced on its own.** Banco Rendimento's inbound email of
+24 September offers **CCNR** — *conta corrente de não residente* — among its
+services. Before adding a sixth onboarding to five stalled ones, ask them the
+licence question first: see `projects/rendimento-efx.md`. If they answer as
+Ouribank did, we will have confirmed the requirement is market standard rather
+than one bank's policy, which settles whether this is a structuring problem.
 
 *Open:* which legal entity should hold each NRA, and for what purpose —
 UNL MX, Unlimit Brasil, the UAE entity, or a holding company; and whether one

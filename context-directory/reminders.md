@@ -171,6 +171,20 @@ Johnpulle at Sibos. Newsletters, bank notifications and event invitations not li
     provably complete. Banco Rendimento has no published commercial email. B&T's
     current licence class unconfirmed.
 
+- [~] **Projeto Banco Rendimento — eFX service**
+  - Project file: `context-directory/projects/rendimento-efx.md`
+  - **Andréia Cunha wrote to us 24 Sep. Still unanswered, twelve days.** They publish
+    an eFX batch product for facilitadoras, API or SFTP, in the FX market since 1992,
+    independent — no payments competitor on the cap table.
+  - **But she is not the right door.** Her message is a cold mass mailing from the
+    *parcerias* channel offering a commission arrangement. Reply, position us as a
+    BCB-authorised IP doing cross-border collections at scale, and ask her to route us
+    to the **institutional eFX desk**.
+  - She also mentioned **CCNR** — non-resident accounts. That makes Rendimento a sixth
+    NRA candidate. **Ask the licence question first:** if they answer as Ouribank did,
+    the third-party-flows requirement is market standard, not one bank's policy.
+  - Purpose is a **second rail away from Genial**, not a better spread.
+
 - [!] **Projeto Pix Direto (Celcoin) — contract deadlock and the RSFN link**
   - Project file: `context-directory/projects/pix-direct.md`
   - **Deadlock to break, costing a week already:** you asked twice for the draft so
