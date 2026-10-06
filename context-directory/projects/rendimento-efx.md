@@ -46,6 +46,37 @@ conversation alongside the institutional one already running.
 
 ---
 
+## Your escalation of 6 October, and what it introduces
+
+You wrote to Rose today — copying Ellen, Thiago Genda, Rieka van Wyk and
+Dimitris:
+
+> *"We need to send this forms for Banco Rendimento asap. **FX situation in
+> Brazil is critical now and we need this bank for EFX and for NRA.**
+>
+> Also regarding NRA — **we have a license in Hong Kong now and we can use this
+> company for NRA in Brazil in banks that didn't accept Mexico. HK license its
+> MSO license and we are under full supervision in HK.**"*
+
+Two things in that, and the second is bigger than this project.
+
+**First, Rendimento is now wanted for both eFX and the non-resident account.**
+That doubles what the onboarding is worth and changes the sequencing: the NRA
+question should go into the same conversation rather than following it.
+
+**Second — the Hong Kong entity may be the answer to the licence wall.** Every
+NRA onboarding in `projects/brazil.md` §6 is stuck behind one sentence from
+Ouribank on 21 August: *"the entity must hold a license that allows it to
+process third-party flows."* UNL MX does not hold one. **An MSO licence,
+supervised in Hong Kong, is exactly a licence to provide money services for
+third parties.** That is a different answer to the same question, and it has
+not yet been put to any of these banks.
+
+The plan for re-approaching the banks that refused the Mexican entity now sits
+in `projects/brazil.md` §6.
+
+---
+
 ## Why the delay matters more than it looks
 
 Three reasons this is not just a slow form.
@@ -100,12 +131,13 @@ after.
 3. **You are a RippleNet partner.** Res. BCB 561/2026 bans virtual assets,
    stablecoins included, as a settlement means between an eFX provider and its
    counterpart abroad. What has that changed on your side?
-4. **CCNR / non-resident accounts** — Andréia's mailing lists them. Does the
-   account holder need a licence permitting it to process third-party flows?
-   Ouribank said yes on 21 August, and that answer stopped five separate NRA
-   onboardings. If Rendimento says the same, we will know it is market standard
-   rather than one bank's policy — which settles whether the problem in
-   `projects/brazil.md` §6 is structural.
+4. **CCNR / non-resident account — and present the Hong Kong entity, not the
+   Mexican one.** Does the account holder need a licence permitting it to
+   process third-party flows? Ouribank said yes on 21 August, and that answer
+   stopped five separate NRA onboardings. **Ask whether an MSO licence,
+   supervised by the Hong Kong authorities, satisfies that test.** Rendimento is
+   the cleanest place to ask, because unlike the others they have not already
+   refused us — there is no position to reverse.
 5. Batch eFX mechanics: API or SFTP, cut-off times, settlement same day or D+1.
 6. Is the quoted rate binding at settlement or indicative, and how long can it
    be held?

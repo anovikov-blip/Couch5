@@ -18,7 +18,7 @@ answer
 | 3 | Banco Genial — crypto merchants dropped · own VASP licence or umbrella | `[!]` | **30 Oct 2026** | Legal opinion on the PSAV perimeter · Ebury thread already open |
 | 4 | Additional FX banks | `[~]` | — | Approach Braza, Ebury, Ouribank, BS2 |
 | 5 | eFX — declare the service in Unicad | `[!]` | **30 Oct 2026** | Pinheiro Neto engaged 5 Oct — confirm Unicad is in scope |
-| 6 | Non-resident accounts (NRA/CNR) — five banks, all stalled | `[!]` | — | Press Ouribank for its Cayman structure; Genial opinion now sent |
+| 6 | Non-resident accounts (NRA/CNR) — five banks stalled; **re-approach with the Hong Kong entity** | `[!]` | — | Confirm what the HK MSO licence permits, then put it to all five |
 | 7 | Genial concentration — ~80% of approved volume at a sanctioned bank | `[!]` | — | Put a current number on the exposure |
 
 **Three of these are the same problem wearing different clothes.** Genial will
@@ -535,10 +535,69 @@ asks you something directly:
 | Internal | Olegs Bulgakovs, Head of Treasury | o.bulgakovs@unlimit.com · +357 25388614 — has his own "NRA accounts in Brazil" thread |
 | Internal | Enrique Pina | e.pina@unlimit.com — handled the KNP payment |
 
+### The Hong Kong entity — a different answer to the same question
+
+**6 October.** Andrey, to Rose and the Brazilian team:
+
+> *"we have a license in Hong Kong now and we can use this company for NRA in
+> Brazil in banks that didn't accept Mexico. HK license its MSO license and we
+> are under full supervision in HK."*
+
+This is the first new fact in this workstream since August, and it goes
+straight at the blocker.
+
+Every refusal above reduces to Ouribank's sentence: *the entity must hold a
+licence that allows it to process third-party flows.* UNL MX does not hold one
+— that is why Ouribank declined, and it is the most likely reason the others
+have been slow rather than explicit. **A Hong Kong MSO licence is, on its face,
+precisely a licence to provide money services for third parties, under
+supervision.** We have never put that entity in front of these banks.
+
+**It also dissolves the Travelex blocker outright.** That onboarding has been
+frozen since 16 June on a power of attorney proving Andrey can represent
+**UNL MX in Brazil**, apostilled and sworn-translated — a document Dolores
+Chávez confirmed does not exist. A different applicant entity means different
+corporate documents and different signatories. The problem does not get solved;
+it stops existing.
+
+**Two cautions, stated plainly.** An MSO licence is not a banking or
+payment-institution licence, and whether a Brazilian bank accepts it as
+satisfying their test is their decision, not ours — ask before rebuilding a
+file. And presenting a new applicant restarts KYC: expect a fresh document set,
+not an amendment to the existing one.
+
+### Plan: re-approach with the Hong Kong entity
+
+Run these in parallel, not in sequence. The question is the same for all of
+them and takes one paragraph.
+
+| # | Bank | Why it is on this list | Open with |
+|---|---|---|---|
+| 1 | **Ouribank** | The only one that stated the rule. Also still owes us the Cayman-branch flow document from 21 Aug | *"You told us the entity must hold a licence permitting third-party flows. We now hold an MSO licence in Hong Kong under full supervision. Does that satisfy the test — and how does it compare with the Cayman-branch structure you proposed?"* |
+| 2 | **Travelex** | Frozen since June on a UNL MX power of attorney that does not exist. A new entity removes the blocker entirely | *"We would like to restart this with a different applicant — our Hong Kong entity, which holds an MSO licence."* Confirm who owns the relationship first; it changed hands in August |
+| 3 | **Rendimento** | Has not refused anything, so there is no position to reverse. Cleanest place to get a straight answer | Ask inside the eFX onboarding already running — see `projects/rendimento-efx.md` |
+| 4 | **Genial** | The Mexican legal opinion has now been sent. Ask whether the HK entity would be simpler than continuing down that path | Only after their reply on the opinion, so we are not seen to be switching horses mid-process |
+| 5 | **Ebury / Braza** | Neither has refused; the entity choice is still open | Settle which entity applies before the proposal is signed, not after |
+
+**Before any of it: confirm the HK entity's own position.** Which legal entity
+exactly, what the MSO licence permits and excludes, who signs for it, and
+whether Hong Kong supervision raises any issue with a Brazilian non-resident
+account. Jesse Yu (c.yu@unlimit.com) is AML/Legal Counsel for APAC and sits in
+Hong Kong; Michele F. is running the Standard Chartered Hong Kong onboarding
+and will know how banks there have received the licence so far.
+
+**One decision this forces.** We now have two candidate applicants — UNL MX and
+the Hong Kong company — and five banks at different stages. Picking per bank,
+opportunistically, is how we ended up with five parallel onboardings and no
+accounts. **Choose the applicant entity once, deliberately, and run every bank
+against it.** That is the §5 question — which modality Unlimit Brasil is
+authorised in — reaching this workstream from a different direction.
+
 ### Next steps, in order
 
 1. **Reply to Deborah at Ouribank** asking for the Cayman-branch flow document
-   she offered on 21 August. One email, highest return on the page.
+   she offered on 21 August — **and put the Hong Kong MSO licence to her in the
+   same email.** One message, two answers, highest return on the page.
 2. **Answer Thiago's two questions**, which have been open since 30 July.
 3. **Decide which entity applies for the NRA** — the licence-for-third-party-
    flows requirement is the root cause, and it is a structuring decision, not a
@@ -656,6 +715,9 @@ the bank since August.
 | 13 | What does Ouribank's Cayman-branch NRA structure actually look like? | Deborah Marreiros | §6 |
 | 14 | Do we still pursue Genial for the NRA, and keep hunting a Mexican law firm? | Andrey | §6 |
 | 15 | Does Res. BCB 575/2026 open a foreign-currency account option we have not considered? | Brazilian legal | §6 |
+| 15a | Which Hong Kong entity exactly, and what does the MSO licence permit and exclude? | Jesse Yu / HK legal |
+| 15b | Does an MSO licence satisfy the Brazilian banks' third-party-flows test? | The five banks |
+| 15c | Do we standardise on one applicant entity across all five banks, or choose per bank? | Andrey |
 | 16 | Will Travelex accept conversion funds routed from BPP after 1 Oct? Get it in writing | Leandro Reis / new RM | §2 |
 | 17 | Does Dock intend to apply for eFX authorisation before 31 May 2027? | Alan Paiva, Dock | §2 |
 | 18 | Can Pix collections land directly in BTG, bypassing Dock? | Dock + BTG + product | §2 |

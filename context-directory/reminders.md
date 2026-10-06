@@ -187,6 +187,11 @@ Johnpulle at Sibos. Newsletters, bank notifications and event invitations not li
   - **Re-read the compliance pack against Res. 561 before returning it** — it was
     drafted before 1 October.
   - Purpose is a **second rail away from Genial** (~80% concentration), not a spread.
+  - Your 6 Oct note to Rose: *"FX situation in Brazil is critical now and we need this
+    bank for EFX and for NRA."* So ask the CCNR question inside the same onboarding —
+    and present the **Hong Kong entity**, not the Mexican one. Rendimento is the
+    cleanest place to test whether an MSO licence passes, because they have not
+    refused us anything yet.
 
 - [!] **Projeto Pix Direto (Celcoin) — contract deadlock and the RSFN link**
   - Project file: `context-directory/projects/pix-direct.md`
@@ -248,6 +253,17 @@ Johnpulle at Sibos. Newsletters, bank notifications and event invitations not li
     third-party flows, and promised a flow document that never came — **that follow-up
     is the highest-value email on the project**. Deborah Marreiros,
     deborah.marreiros@ouribank.com, +55 11 97767-0003.
+  - **[!] The Hong Kong entity is the new answer — re-approach all five.** Per your
+    6 Oct email: we now hold an **MSO licence in Hong Kong under full supervision**,
+    and on its face that *is* a licence to provide money services for third parties.
+    Never yet put to these banks. **It also dissolves the Travelex blocker entirely** —
+    that one has been frozen since 16 June on a UNL MX power of attorney that Dolores
+    confirmed does not exist; a different applicant makes the document unnecessary.
+    Order: Ouribank first (they stated the rule), then Travelex, Rendimento, Genial,
+    Ebury/Braza. Plan is in `projects/brazil.md` §6.
+    *First:* confirm with Jesse Yu which HK entity, what the licence permits, who
+    signs. *Then decide once:* one applicant entity for all five banks, not per bank —
+    picking opportunistically is how we got five onboardings and no accounts.
   - **Genial: ~80% of approved Brazilian volume sits at a sanctioned bank.** BCB fined
     Genial R$ 21.6m on 12 Aug and disqualified CEO André Schwartz for four years —
     grounds were failure to certify FX clients, Coaf reporting and AML controls. That
