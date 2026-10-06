@@ -17,7 +17,7 @@ answer
 | 2 | Genial refuses conversion funds from Dock (BPP) — not eFX-licensed | `[!]` live, daily | — | Reply to Genial; ask Travelex for its written position |
 | 3 | Banco Genial — crypto merchants dropped · own VASP licence or umbrella | `[!]` | **30 Oct 2026** | Legal opinion on the PSAV perimeter · Ebury thread already open |
 | 4 | Additional FX banks | `[~]` | — | Approach Braza, Ebury, Ouribank, BS2 |
-| 5 | eFX — declare the service in Unicad | `[!]` | **30 Oct 2026** | Sign the pending DocuSign on the FX Market licence |
+| 5 | eFX — declare the service in Unicad | `[!]` | **30 Oct 2026** | Pinheiro Neto engaged 5 Oct — confirm Unicad is in scope |
 | 6 | Non-resident accounts (NRA/CNR) — five banks, all stalled | `[!]` | — | Answer Thiago's two open questions; chase Ouribank's Cayman structure |
 
 **Three of these are the same problem wearing different clothes.** Genial will
@@ -197,6 +197,29 @@ High Importance and asked Thiago to clear it legally *before anyone replies to
 Genial in the WhatsApp group*. Thiago has now answered. The reply to Genial is
 the next move and it is waiting on you.
 
+### There may already be a compliant route at Genial, half-built
+
+A separate Genial thread — *"Aditional Account — Unlimit Brasil"*, with
+**Gabriel Labate**, Corporate Desk — has been running since August. Thiago
+opened it on 10 August:
+
+> *"Due to a Central Bank request, we must start sending our FX transactions
+> not related to credit card operations directly through an **Unlimit Brasil
+> IP account** instead of Unlimit Brasil PSP."*
+
+Gabriel confirmed the account supports the expected flow, with compliance
+approval needed only if the merchants were new — they are the same merchants,
+only the sending entity changes. On **30 September** Ellen reported the account
+was open but needed the **Unlimit Brasil / Unlimit Uruguai contract** to
+activate; she sent it the same day and Gabriel replied that he is proceeding.
+
+This matters because it is the same shape as the fix: **send from the licensed
+IP entity rather than from a structure the bank will not accept.** Before
+designing anything new, find out where that account now stands and whether it
+solves the BPP problem or is unrelated to it. Gabriel Labate —
+gabriel.labate@genial.com.vc, +55 11 3206-8000. Bernardo Duarte is on the
+thread too.
+
 ### Options, in the order I would test them
 
 1. **Become a direct Pix participant, or move to a rail whose institution is
@@ -222,6 +245,8 @@ the next move and it is waiting on you.
 | **Ellen Inhauser** | Unlimit — Settlements Officer, runs this daily | e.inhauser@unlimit.com · +55 11 98244-3389 |
 | Dimitris Dimitriou | Unlimit — proposed the CIP route | d.dimitriou@unlimit.com |
 | Thiago Genda | Unlimit — Legal & Compliance Brazil | t.genda@unlimit.com |
+| **Gabriel Labate** | Banco Genial — Corporate Desk | gabriel.labate@genial.com.vc · +55 11 3206-8000 |
+| Bernardo Duarte | Banco Genial | bernardo.duarte@genial.com.vc |
 
 *Open:* what share of Brazilian collection volume runs through BPP versus CIP;
 whether Dock intends to apply for eFX authorisation; whether Pix can land
@@ -260,6 +285,27 @@ Monthly reporting to the BCB started 4 May 2026.
 parties on 2 February 2026 must file for authorisation by 30 October 2026** —
 270 days from entry into force — or stop.
 
+### The authorisation is two stages, and stage one is smaller than it looks
+
+I previously wrote that a licence application cannot be assembled from a
+standing start in 24 days. That was too pessimistic, and the correction
+matters.
+
+**Stage 1, due 30 October 2026:** file the request with corporate documents,
+audited financial statements and a formal communication to the BCB. That is a
+filing, and it is achievable.
+
+**Stage 2, after the BCB responds favourably:** business plan, proof of
+economic-financial capacity, approval of administrators. That is the real
+work, and it happens on the regulator's clock, not ours.
+
+So if we are inside the perimeter, the 30 October date is a document exercise,
+not a project. Missing it is a choice, not a resource problem.
+
+Prudential regime: **Resolução BCB 580/2026** brought SPSAVs inside the
+Central Bank's prudential framework as Type 3 institutions, held in Segment S4
+until 30 June 2028 regardless of size.
+
 ### Option A — our own SPSAV licence
 
 Minimum capital, by modality:
@@ -271,44 +317,42 @@ Minimum capital, by modality:
 | Full range, upper end | up to R$ 37.2m |
 
 Plus AML/CFT controls, segregation of client assets, governance, audit and
-monthly BCB reporting. This is a real balance-sheet and compliance commitment,
-not a filing.
+monthly BCB reporting — the latter already running since 4 May 2026 for
+authorised firms.
 
-**And the deadline cuts against it.** 30 October is 24 days away. If we are
-inside the perimeter and have not filed, a licence application cannot be
-assembled from a standing start in 24 days — the realistic move is to file what
-is required to stop the clock and build the substance afterwards, which is a
-decision for legal, not for us.
+### Option B — PSAV as a service
 
-### Option B — umbrella with an authorised player
+**Correction to what I wrote before.** I said the regulation does not
+contemplate an unauthorised firm operating under someone else's licence. That
+was too absolute. **"PSAV as a service" is a real and established model in
+Brazil**, and there is a market of providers around it.
 
-Worth being precise about what is and is not available here. The regulation
-contemplates an **SPSAV outsourcing to relevant third parties** — custodians,
-liquidity providers, market makers, e-money issuers, payment account providers,
-technology suppliers — while remaining responsible for compliance. It does
-**not** contemplate an unauthorised firm operating under someone else's
-licence. "Umbrella" in the loose sense is not a recognised structure.
+How it works: **an authorised SPSAV may contract third parties while remaining
+fully responsible for regulatory compliance.** That creates a legitimate route
+for a company to offer virtual-asset services by connecting to an authorised
+partner's licence rather than holding its own. Commercially this is the
+umbrella you were describing.
 
-What *is* available, and is the realistic version of Option B: **restructure so
-that Unlimit never touches the virtual asset.** The licensed PSAV is the
-counterparty to the end customer for the crypto leg; we are its payment
-institution for the reais leg. That is a commercial and contractual
-restructuring, and it may be what we are already doing — which loops back to
-the perimeter question.
+**But there is a test that decides whether it actually works for us, and it is
+written into Res. BCB 520.** The regulation applies a **functional test**: what
+matters is not the label — not "SaaS", not "non-custodial", not
+"infrastructure" — but whether the provider
 
-### Already in motion — do not start this from zero
+- holds or controls the instruments needed to move the assets,
+- executes transfer instructions on the holder's behalf, or
+- can block or restore access.
 
-**Messias Andrade at Ebury has an open thread with you titled "Unlimit & Ebury
-(efx for crypto)"**, 29 September. That is the exact product Genial just
-withdrew, offered by a licensed banco de câmbio, and the conversation is
-already live. It is waiting on one thing: Messias asked for a copy of your
-**Brazilian RNM** for ID validation. That is a personal identity document —
-confirm the request is genuine with him directly and send it through a secure
-channel, not as an email attachment.
+If any of those is true of us, we are the PSAV regardless of what the contract
+with the umbrella provider says. The label does not survive contact with the
+test. **So Option B is viable exactly to the extent that our flow fails all
+three limbs** — which, since we handle the reais leg and not the asset, it
+plausibly does. That is the thing to put to counsel, in those words.
 
-This does not answer the licensing question, but it may answer the commercial
-one. If Ebury will bank the crypto merchant flow under Res. 561, the urgency
-shifts from "replace the product" to "get the perimeter opinion right".
+**One more rule that may bite, and it shares the same date.** Foreign entities
+that were active in Brazil on 2 February 2026 must **transfer their operations
+and clients to a licensed bank, broker or SPSAV within 270 days — by
+30 October 2026 — and then cease their own activity.** If any Unlimit entity
+outside Brazil touches this flow, that provision needs checking against it.
 
 ### Recommendation
 
@@ -320,8 +364,12 @@ week, because:
 - if we are inside it, the 30 October filing becomes the only thing that
   matters this month and the choice between A and B happens after.
 
-**Next step:** put the drafted questions to Brazilian counsel with a deadline
-of this week, flagging 30 October explicitly.
+**Next step: put the drafted questions to Pinheiro Neto.** You engaged them on
+5 October for the FX market licence (§5) — they are already retained, they are
+a top-tier Brazilian firm, and this is squarely their work. Do not go hunting
+for separate counsel, and do not keep looking for a Mexican firm for the Genial
+legal opinion before PN has given a view. Flag 30 October explicitly, and ask
+the Res. 520 functional test in the three limbs above.
 
 *Open:* how much revenue the crypto merchant book represents; whether those
 merchants are themselves authorised or filing; who at Genial can tell us
@@ -373,15 +421,22 @@ pagamento pós-pago*, or a *credenciador*.
 **Which modality is Unlimit Brasil authorised in?** If it is one of those
 three, §4 becomes a question of pricing and reach rather than of permission.
 
-**There is an unsigned DocuSign envelope on this.** *"Unlimit IP: assistance
-obtaining the FX Market licence"* — Yulia checked it and asked you to sign on
-30 September. It has been sitting since. If that engagement is the route to the
-FX market authorisation, signing it is the unblock, and it has been waiting six
-days.
+**This is already in motion — counsel is engaged.** The DocuSign
+*"Unlimit IP — Assistance in obtaining License to Operate in the FX Market"*
+**completed on 5 October 2026**, all parties signed. The firm is **Pinheiro
+Neto Advogados**; the contact is **Maria Luiza Kjekshus Mansur Haddad**
+(mhaddad@pn.com.br, Rua Hungria 1100, São Paulo, +55 11 3247-8400). Yulia
+Shevchenko wrote on 2 October that she wants to start work on the licence the
+following week — so that work is starting now.
 
-*Open:* both answers sit with the Brazilian legal team. Ask alongside §3 — same
-people, same week. Confirm whether the DocuSign engagement covers the Unicad
-declaration too, or only the licence application.
+**Use them for §3 as well.** The PSAV perimeter question, the Res. 520
+functional test and the modality question below are all the same kind of
+question, for the same firm, already retained, in the same week.
+
+*Open:* confirm with Yulia and PN whether the engagement covers the **Unicad
+eFX declaration due 30 October**, or only the licence application. Those are
+different filings and it would be easy for the smaller one to fall between
+them.
 
 ---
 
@@ -508,6 +563,10 @@ NRA serves everything or we need several.
 | 17 | Does Dock intend to apply for eFX authorisation before 31 May 2027? | Alan Paiva, Dock | §2 |
 | 18 | Can Pix collections land directly in BTG, bypassing Dock? | Dock + BTG + product | §2 |
 | 19 | What share of Brazilian volume is BPP/Pix versus CIP? | Ellen / Finance | §2 |
+| 20 | Where does the Genial "Unlimit Brasil IP" account stand, and does it solve the BPP problem? | Gabriel Labate / Thiago | §2 |
+| 21 | Does our flow fail all three limbs of the Res. 520 functional test — control of instruments, executing transfers, blocking access? | Pinheiro Neto | §3 |
+| 22 | Does the 270-day foreign-entity transfer rule (by 30 Oct) catch any Unlimit entity outside Brazil? | Pinheiro Neto | §3 |
+| 23 | Does the Pinheiro Neto engagement cover the Unicad eFX declaration, or only the licence? | Yulia / PN | §5 |
 
 ---
 

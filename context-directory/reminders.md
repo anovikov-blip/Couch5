@@ -187,11 +187,19 @@ Johnpulle at Sibos. Newsletters, bank notifications and event invitations not li
     position before it refuses mid-flow.** The CIP-via-BTG alternative only rescues CIP
     traffic: Thiago's condition is that Pix must land *directly* in BTG, never via Dock.
     Two unread emails waiting on you; the reply to Genial is blocked on it.
-  - **Genial dropped crypto merchants.** Decide own SPSAV licence vs restructuring so we
-    never touch the asset. **Prior question first: are we even inside the PSAV
-    perimeter?** Questions already drafted for counsel —
-    https://claude.ai/code/artifact/c7f12c06-e9e2-4bf3-a032-6b7a99af03dc
-    Capital if we do licence: R$ 9.2m intermediação, R$ 13m+ with custody.
+  - **Genial dropped crypto merchants.** **PSAV as a service exists** — an authorised
+    SPSAV may contract third parties and stay responsible, so the umbrella is real. But
+    Res. BCB 520 applies a **functional test**: if we control the instruments to move
+    the assets, execute transfers for the holder, or can block access, we are the PSAV
+    whatever the contract says. Our flow plausibly fails all three limbs — put it to
+    counsel in those words. Authorisation is two stages; **stage 1 due 30 Oct is a
+    filing** (corporate docs, audited FS, formal communication), not the full licence.
+    Capital if we go alone: R$ 9.2m intermediação, R$ 13m+ with custody.
+    Questions drafted: https://claude.ai/code/artifact/c7f12c06-e9e2-4bf3-a032-6b7a99af03dc
+  - **Pinheiro Neto is engaged** — the FX Market licence DocuSign completed 5 Oct.
+    Maria Luiza Haddad, mhaddad@pn.com.br. **Send them the PSAV perimeter question too**
+    instead of hunting separate counsel, and confirm whether their scope covers the
+    Unicad declaration. RNM sent to Ebury — ball is with Messias.
   - **Additional FX banks** — shortlist in `research/brazil-efx-banks.md`.
     Banco Rendimento approached *us* on 24 Sep (Andreia Cunha) and has not been
     answered.
@@ -203,8 +211,8 @@ Johnpulle at Sibos. Newsletters, bank notifications and event invitations not li
     the highest-value email on the project**. Deborah Marreiros,
     deborah.marreiros@ouribank.com, +55 11 97767-0003.
   - **Thiago Genda asked you two direct questions on 30 Jul and 4 Aug. Both emails are
-    still unread.** Do we keep pursuing Genial for the NRA and keep hunting a Mexican
-    law firm; and help him chase Dimitris and Ellen for the merchant details Ouribank
+    still unread.** Do we keep pursuing Genial for the NRA — and stop the Mexican law
+    firm hunt, Pinheiro Neto can take it; and help him chase Dimitris and Ellen for the merchant details Ouribank
     asked for. Also: the **Ebury NRA proposal has been with you since 30 July**.
   - *Open:* nine questions tracked in the project file's register.
 
