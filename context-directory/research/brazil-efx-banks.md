@@ -1,6 +1,6 @@
 # eFX banks in Brazil — counterparties for Unlimit Brasil
 
-Last updated: 2026-10-02
+Last updated: 2026-10-06
 Prepared for: Unlimit Brasil, authorised payment institution collecting for
 foreign merchants
 
@@ -90,6 +90,9 @@ settlement over API or SFTP — the closest published description of our flow of
 anything in this market.
 
 - Av. Engenheiro Luís Carlos Berrini 105, 5º andar, São Paulo/SP, 04571-010
+- **Leandro Reis**, Sr Sales Manager — lersousa@travelexbank.com.br ·
+  +55 11 3728-8449. He has run our UNL MX non-resident account since May;
+  a new relationship manager took over in August, so confirm who owns it now
 - +55 11 3004-0490 · 0800 014 1010
 - infocomercial@travelexbank.com.br
 - travelexbank.com.br/efx · CNPJ 11.703.662/0001-44
@@ -175,8 +178,19 @@ the model works at consumer scale.
 - Av. Paulista 1728, mezzanine and floors 1–5, 7 and 11, Bela Vista,
   São Paulo/SP, 01310-919
 - +55 11 4081-4444 · 0800 771 4342
+- **Deborah Marreiros**, Hub — eFX — deborah.marreiros@ouribank.com ·
+  +55 11 97767-0003. Also Lucas Santos (lucas.santos@ouribank.com), the team
+  inbox efx@ouribank.com, and Erica Rodrigues França for onboarding
+  (erica.franca@ouribank.com)
 - Email convention: first.last@ourinvest.com.br
 - ouribank.com
+
+**They have already told us the rule that blocks everyone else.** On 21 Aug
+2026 Ouribank declined our NRA onboarding because "the entity must hold a
+license that allows it to process third-party flows", and offered an
+alternative: their new **Cayman Islands branch**, which holds an NRA in Brazil
+and can support third-party flows. The promised flow document never arrived.
+Chase it — see `projects/brazil.md` §6.
 
 Ouribank has also published its own explainer on what Res. 561 changes, which
 suggests the regulatory change is being handled as a commercial opportunity
@@ -190,8 +204,10 @@ settlement leg. Also a RippleNet partner in the region.
 
 - rendimento.com.br/solucoes-efx
 
-*Open:* no commercial email surfaced in public sources. Route in through the
-corporate FX desk or ABRACAM.
+**Contact found in the mailbox, not on the web:** **Andreia Cunha** —
+andreia.cunha@rendimento.com.br — approached us about a partnership on
+24 September 2026. That email has not been answered. It is the warmest lead on
+this page and it is inbound.
 
 ### Banco Topázio
 

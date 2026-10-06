@@ -188,6 +188,19 @@ Johnpulle at Sibos. Newsletters, bank notifications and event invitations not li
     https://claude.ai/code/artifact/c7f12c06-e9e2-4bf3-a032-6b7a99af03dc
     Capital if we do licence: R$ 9.2m intermediação, R$ 13m+ with custody.
   - **Additional FX banks** — shortlist in `research/brazil-efx-banks.md`.
+    Banco Rendimento approached *us* on 24 Sep (Andreia Cunha) and has not been
+    answered.
+  - **Non-resident accounts — all five stalled on one root cause.** Ouribank said it
+    outright on 21 Aug: *"the entity must hold a license that allows it to process
+    third-party flows."* Not a document chase, a structuring decision. They offered
+    their new **Cayman Islands branch**, which holds an NRA in Brazil and supports
+    third-party flows, and promised a flow document that never came — **that chase is
+    the highest-value email on the project**. Deborah Marreiros,
+    deborah.marreiros@ouribank.com, +55 11 97767-0003.
+  - **Thiago Genda asked you two direct questions on 30 Jul and 4 Aug. Both emails are
+    still unread.** Do we keep pursuing Genial for the NRA and keep hunting a Mexican
+    law firm; and help him chase Dimitris and Ellen for the merchant details Ouribank
+    asked for. Also: the **Ebury NRA proposal has been with you since 30 July**.
   - *Open:* nine questions tracked in the project file's register.
 
 - [!] **30 October 2026 — two filings, same day**

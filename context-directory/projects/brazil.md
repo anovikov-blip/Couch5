@@ -18,6 +18,7 @@ answer
 | 3 | Banco Genial — crypto merchants dropped · own VASP licence or umbrella | `[!]` | **30 Oct 2026** | Legal opinion on the PSAV perimeter · Ebury thread already open |
 | 4 | Additional FX banks | `[~]` | — | Approach Braza, Ebury, Ouribank, BS2 |
 | 5 | eFX — declare the service in Unicad | `[!]` | **30 Oct 2026** | Sign the pending DocuSign on the FX Market licence |
+| 6 | Non-resident accounts (NRA/CNR) — five banks, all stalled | `[!]` | — | Answer Thiago's two open questions; chase Ouribank's Cayman structure |
 
 **Two hard deadlines land on the same day — 30 October 2026, 24 days out.** The
 PSAV authorisation filing and the Unicad eFX declaration are unrelated rules
@@ -287,6 +288,106 @@ declaration too, or only the licence application.
 
 ---
 
+## 6 · Non-resident accounts (NRA / CNR)
+
+**Why this is not a side task.** Under Res. BCB 561/2026 the financial
+settlement between a Brazilian eFX provider and its counterpart abroad must go
+through **either an FX operation or a non-resident real account held in
+Brazil** — those are the only two permitted routes. The NRA is therefore not
+just convenient treasury plumbing; it is one half of the legal settlement
+mechanism for everything in §4 and §5.
+
+Regulatory basis: Res. BCB 277/2022 (updated version in force 2 Feb 2026),
+which lets any institution authorised in the FX market open and maintain real
+accounts for non-residents on the same terms as for residents. **Res. BCB 575
+of 18 June 2026** amended 277 on foreign-currency accounts and widened the list
+of who may hold one — worth a read before we fix the structure, because it may
+open an option we have not considered.
+
+### The blocker, stated plainly by one of them
+
+On **21 August 2026** Deborah Marreiros at Ouribank declined our onboarding:
+
+> *"Unfortunately, we are unable to proceed with the onboarding based on the
+> license currently provided. In order to open an NRA in Brazil, the entity
+> must hold a license that allows it to process third-party flows."*
+
+That is almost certainly the same wall the other four are standing behind,
+whether or not they have said it as directly. We have been treating five
+separate onboardings as five separate document chases. **It is one problem:
+the entity we are presenting does not hold a licence covering third-party
+flows.** Chasing documents will not fix it. Choosing the right entity, or the
+right structure, will.
+
+### And Ouribank already proposed a structure — seven weeks ago
+
+In the same message:
+
+> *"Ouribank recently opened a branch in the Cayman Islands, and this branch
+> has an NRA in Brazil. This structure would allow us to support third-party
+> flows, including flows such as those currently handled through Unlimit… We
+> will send you next week the expected flow that we believe could work for
+> you!"*
+
+**That was 21 August. The flow document never arrived, and the message is
+still unread in your inbox.** This is the single highest-value follow-up on the
+page: a bank that understands the problem, has a structure that solves it, and
+offered to write it up.
+
+### Status by counterparty
+
+As of Thiago's last written update, 4 August 2026, plus what has happened since.
+
+| Bank | Entity | State | What is actually blocking it |
+|---|---|---|---|
+| **Ouribank** | UNL BR / group | **Declined 21 Aug** on licence grounds; Cayman-branch alternative offered | Their flow document never came. Also: merchant details Ouribank asked for were never sent — Thiago chased Dimitris and Ellen twice |
+| **Travelex** | UNL MX | Stalled since 16 June | PoA proving Andrey can represent UNL MX **in Brazil**, apostilled and sworn-translated. Lorena Chávez confirmed no such PoA exists expressly. Compliance call promised "next week at the latest" on 16 June — nothing since. A new relationship manager took over in early August and promised a final position on the UNL MX NRA "by the end of the week" |
+| **Genial** | UNL MX | Waiting on a Mexican legal opinion | Lorena could not find a Mexican firm specialised in payments. Thiago asked you twice whether to keep looking — **neither message was answered**. Separately, the KNP legal opinion is waiting on your sign-off before Jorge Luna issues the final version |
+| **Ebury** | — | Proposal with you since 30 July | Documentation and commercial proposal were sent to you for review. **Still with you, ten weeks** |
+| **Braza** | — | Call on the proposed flow | You and Dimitris are in a WhatsApp group with them |
+
+### Two questions from Thiago that were never answered
+
+Both of his update emails — 30 July and 4 August — are **still unread**. Each
+asks you something directly:
+
+1. **Genial:** *"Do we still want to move forward with them?"* and *"I am
+   waiting guidance on whether we should keep looking for an external lawyer
+   in Mexico."* Given that Genial has since dropped crypto merchants and the
+   DOC flow, this answer may now be obvious — but he still needs it.
+2. **Ouribank:** *"Please help me follow up with Dimitris and Ellen"* on the
+   merchant details Ouribank requested.
+
+### Contacts
+
+| Bank | Person | Detail |
+|---|---|---|
+| Ouribank | **Deborah Marreiros**, Hub — eFX | deborah.marreiros@ouribank.com · +55 11 97767-0003 · Av. Paulista 1728, Sobreloja |
+| Ouribank | Lucas Santos · team inbox | lucas.santos@ouribank.com · efx@ouribank.com |
+| Ouribank | Erica Rodrigues França (onboarding) | erica.franca@ouribank.com |
+| Travelex Bank | **Leandro Reis**, Sr Sales Manager | lersousa@travelexbank.com.br · +55 11 3728-8449 · *note: a new relationship manager took over in Aug — confirm who owns it now* |
+| Banco Rendimento | **Andreia Cunha** | andreia.cunha@rendimento.com.br — inbound partnership approach, 24 Sep, unanswered |
+| Internal | Thiago Genda, Legal & Compliance Officer Brazil | t.genda@unlimit.com — owns all five |
+| Internal | Dolores (Lorena) Chávez | d.chavez@unlimit.com — Mexican corporate documents |
+
+### Next steps, in order
+
+1. **Reply to Deborah at Ouribank** asking for the Cayman-branch flow document
+   she offered on 21 August. One email, highest return on the page.
+2. **Answer Thiago's two questions**, which have been open since 30 July.
+3. **Decide which entity applies for the NRA** — the licence-for-third-party-
+   flows requirement is the root cause, and it is a structuring decision, not a
+   document chase. Tie it to the §5 question about Unlimit Brasil's own
+   authorised modality.
+4. **Review the Ebury proposal** that has been with you since 30 July.
+5. **Read Res. BCB 575/2026** on foreign-currency accounts before fixing the
+   structure.
+
+*Open:* which legal entity should hold each NRA, and for what purpose —
+UNL MX, Unlimit Brasil, the UAE entity, or a holding company; and whether one
+NRA serves everything or we need several.
+
+---
 ## Open questions register
 
 | # | Question | Who answers | Blocks |
@@ -302,12 +403,24 @@ declaration too, or only the licence application.
 | 9 | Is Genial's condition — funds direct from end clients and acquirers, not via a third-party processor — market standard? | The five banks in §4 | §4, §2 |
 | 10 | Will Ebury bank the crypto merchant flow under Res. 561? | Messias Andrade | §3 |
 | 11 | Does the pending DocuSign engagement cover the Unicad declaration, or only the licence? | Yulia / Brazilian legal | §5 |
+| 12 | Which entity holds a licence permitting third-party flows, and should it be the NRA holder? | Brazilian legal + group legal | §6 |
+| 13 | What does Ouribank's Cayman-branch NRA structure actually look like? | Deborah Marreiros | §6 |
+| 14 | Do we still pursue Genial for the NRA, and keep hunting a Mexican law firm? | Andrey | §6 |
+| 15 | Does Res. BCB 575/2026 open a foreign-currency account option we have not considered? | Brazilian legal | §6 |
 
 ---
 
 ## Parking lot
 
-Items to be added. Andrey said he would add more.
+**Noticed while researching §6, not yet written up — say the word and I will.**
+There is a live BACEN supervisory workstream on UNL.BR running since July:
+report resubmissions (4010 monthly, 4111 daily, 4016 semi-annual), the CCS
+submission, Patrimônio de Referência, the safeguarding calculation, audited
+semi-annual financial statements, and a formal SISCOM process. Owners: Egor
+Trusov, Konstantinos Charalampous, Thiago Genda, Anna Jacobson. It is the
+largest Brazil workstream by message volume and it is not on this page.
+
+Other items to be added. Andrey said he would add more.
 
 ---
 
