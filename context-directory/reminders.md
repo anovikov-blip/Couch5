@@ -1,6 +1,6 @@
 # Reminders
 
-*Last updated: 2026-10-02*
+*Last updated: 2026-10-06*
 
 Urgency: `[!]` urgent · `[~]` soon · `[ ]` no deadline set
 
@@ -150,19 +150,6 @@ Johnpulle at Sibos. Newsletters, bank notifications and event invitations not li
     the held rate must be binding or indicative; who owns the outreach.
 
 
-- [!] **Unlimit Brasil — declare eFX in Unicad by 30 October 2026**
-  - Res. BCB 561/2026 took effect 1 Oct 2026. Institutions already authorised that
-    provide eFX must declare that service in their Unicad registration by **30 Oct**.
-    If Unlimit Brasil is providing eFX today and this has not been filed, it is the
-    most urgent item on this list.
-  - Second question, same thread: **which IP modality is Unlimit Brasil authorised
-    in?** An authorised IP can provide eFX directly, without a separate FX-market
-    authorisation, only if it is an emissor de moeda eletrônica, emissor de instrumento
-    de pagamento pós-pago, or credenciador. If it is one of those, we may not need an
-    eFX bank at all.
-  - *Open:* ask Ellen Inhauser / the Brazilian legal team. Both answers change the
-    shape of the bank search below.
-
 - [~] **eFX banks in Brazil — pick a counterparty**
   - Research: `context-directory/research/brazil-efx-banks.md`
   - Shortlist: **Braza Bank** (largest exclusive FX bank, FXaaS over API, no competitor
@@ -183,6 +170,33 @@ Johnpulle at Sibos. Newsletters, bank notifications and event invitations not li
     unrestricted connection — this environment cannot reach it, so the list is not
     provably complete. Banco Rendimento has no published commercial email. B&T's
     current licence class unconfirmed.
+
+- [!] **Projeto Brasil — four workstreams, two deadlines on 30 Oct**
+  - Project file: `context-directory/projects/brazil.md`
+  - **Serpro — valid CPFs declined.** Likely cause found: Consulta CPF **v3** (live
+    29 May 2026, Portaria RFB 667) made **date of birth part of the query key**, and
+    **the old versions were switched off on 2 October 2026**. Check which endpoint we
+    call before opening a ticket. Also check we are not declining on `situação
+    cadastral` 4 — "pendente de regularização" is common and is not a bad CPF.
+    Serpro: css.serpro@serpro.gov.br · 0800 728 2323 · comercial@serpro.gov.br
+  - **Genial stopped accepting DOC.** DOC was abolished market-wide — Febraban stopped
+    issuance 15 Jan 2024, systems shut 29 Feb 2024. Establish what "DOC" actually is in
+    our stack before designing a replacement. Get the decline in writing from Genial.
+  - **Genial dropped crypto merchants.** Decide own SPSAV licence vs restructuring so we
+    never touch the asset. **Prior question first: are we even inside the PSAV
+    perimeter?** Questions already drafted for counsel —
+    https://claude.ai/code/artifact/c7f12c06-e9e2-4bf3-a032-6b7a99af03dc
+    Capital if we do licence: R$ 9.2m intermediação, R$ 13m+ with custody.
+  - **Additional FX banks** — shortlist in `research/brazil-efx-banks.md`.
+  - *Open:* nine questions tracked in the project file's register.
+
+- [!] **30 October 2026 — two filings, same day**
+  - **PSAV authorisation** — anyone intermediating, custodying or exchanging crypto for
+    third parties on 2 Feb 2026 must file by 30 Oct or stop. Applies only if we are
+    inside the perimeter — see above.
+  - **Unicad eFX declaration** — institutions already authorised that provide eFX must
+    declare the service by 30 Oct.
+  - Both sit with the Brazilian legal team. Same people, same conversation.
 
 - [ ] **X project — Brazil** *(payments)*
   - *Open:* scope, stage, deadline, who else is involved
