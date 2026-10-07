@@ -1,6 +1,6 @@
 # Projeto Brasil — Brazil project
 
-Last updated: 2026-10-06
+Last updated: 2026-10-07
 Owner: Andrey Novikov · Entity: Unlimit Brasil (authorised payment institution,
 collecting for foreign merchants)
 
@@ -20,6 +20,20 @@ answer
 | 5 | eFX — declare the service in Unicad | `[!]` | **30 Oct 2026** | Pinheiro Neto engaged 5 Oct — confirm Unicad is in scope |
 | 6 | Non-resident accounts (NRA/CNR) — five banks stalled; **re-approach with the Hong Kong entity** | `[!]` | — | Confirm what the HK MSO licence permits, then put it to all five |
 | 7 | Genial concentration — ~80% of approved volume at a sanctioned bank | `[!]` | — | Put a current number on the exposure |
+| 8 | **Pix Direto (Celcoin)** — own file | `[!]` | — | Break the contract deadlock; order the RSFN link |
+| 9 | **Banco Rendimento — eFX + NRA** — own file | `[!]` | — | Return the onboarding pack; present the Hong Kong entity |
+
+### Related project files
+
+Two Brazilian workstreams are large enough to have their own files. They are
+part of this project, not separate from it, and the two biggest decisions on
+this page depend on them.
+
+| File | What it covers | Why it matters here |
+|---|---|---|
+| **`projects/pix-direct.md`** | **Celcoin** — moving from Pix Indireto to **Pix Direto**, making Unlimit a direct participant in the SPI with its own Conta PI. Contract at R$ 0.012 per transaction, the RSFN connection, RTM and Embratel, certificates | **This is the real fix for §2.** Direct participation removes Dock/BPP from the chain entirely. The contract is stuck in a deadlock and the network link has not been ordered |
+| **`projects/rendimento-efx.md`** | **Banco Rendimento** — eFX onboarding opened 4 Sep, pack unreturned, three follow-ups unanswered. Also offers CCNR | Candidate for **both §4 and §6**, and the cleanest place to test whether the Hong Kong MSO licence passes the third-party-flows test, since they have refused us nothing |
+
 
 **Three of these are the same problem wearing different clothes.** Genial will
 not take conversion funds from Dock/BPP because BPP is not eFX-authorised (§2).
@@ -400,10 +414,11 @@ Shortlist, in order:
 3. **Ouribank** — sells to facilitadoras by name; Nomad is its FX
    correspondent. +55 11 4081-4444
 4. **Banco BS2** — cambio@bancobs2.com.br
-4b. **Banco Rendimento** — approached *us* on 24 Sep and has not been answered.
-   Publishes an eFX batch product for facilitadoras, API or SFTP, in FX since
-   1992, independent. Own project file: `projects/rendimento-efx.md`
-5. **Travelex Bank** — explicit eFX product for facilitadoras, batch settlement
+5. **Banco Rendimento** — eFX onboarding already open since 4 Sep; the pack is
+   sitting with us unreturned. Batch eFX for facilitadoras over API or SFTP, in
+   the FX market since 1992, independent. Own file:
+   `projects/rendimento-efx.md`
+6. **Travelex Bank** — explicit eFX product for facilitadoras, batch settlement
    over API/SFTP. infocomercial@travelexbank.com.br
    *Being acquired by StoneX: announced 12 Aug 2026, CADE cleared, BCB pending.
    Same conversation as StoneX, not a separate one.*
@@ -528,7 +543,7 @@ asks you something directly:
 | Ouribank | Lucas Santos · team inbox | lucas.santos@ouribank.com · efx@ouribank.com |
 | Ouribank | Erica Rodrigues França (onboarding) | erica.franca@ouribank.com |
 | Travelex Bank | **Leandro Reis**, Sr Sales Manager | lersousa@travelexbank.com.br · +55 11 3728-8449 · *note: a new relationship manager took over in Aug — confirm who owns it now* |
-| Banco Rendimento | **Andreia Cunha** | andreia.cunha@rendimento.com.br — inbound partnership approach, 24 Sep, unanswered |
+| Banco Rendimento | **André Luiz Marques** / **Giulia Moura da Silva**, Novos Negócios | andre.marques@rendimento.com.br · +55 11 98305-1862 · giulia.silva@rendimento.com.br · desk inbox **efx@rendimento.com.br**. *(Andréia Cunha's 24 Sep mailing is the separate parcerias channel — not this.)* |
 | Internal | Thiago Genda, Legal & Compliance Officer Brazil | t.genda@unlimit.com — owns all five |
 | Internal | Dolores (Lorena) Chávez | d.chavez@unlimit.com — Mexican corporate documents |
 | **KNP (Mexico)** | **Jorge Luna** — wrote the legal opinion for Genial | jluna@knp.com.mx |
