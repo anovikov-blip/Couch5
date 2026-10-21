@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="660" viewBox="0 0 1160 660">
+<rect width="1160" height="660" fill="#fcfcfb"/>
+<text x="28" y="40" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#0b0b0b">2. NRA — две схемы и во что обходится вывод</text>
+<text x="28" y="62" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" fill="#52514e">Первый NRA в Бразилии для мексиканской компании Ebury открывает на этой неделе.</text>
+<rect x="28" y="86" width="1104" height="124" rx="10" fill="#FFFFFF" stroke="#E3E1DA" stroke-width="1.3"/>
+<rect x="28" y="86" width="6" height="124" rx="3" fill="#2a78d6"/>
+<text x="50" y="112" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13.5" font-weight="700" fill="#2a78d6">СХЕМА A — схлопывание встречных потоков</text>
+<rect x="50" y="134" width="152" height="58" rx="7" fill="#FFFFFF" stroke="#0b0b0b" stroke-width="1.7"/><text x="126.0" y="161.75" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="middle">UN Brazil IP</text><text x="126.0" y="179.75" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="11" fill="#52514e" text-anchor="middle">собирает PIX</text>
+<line x1="206" y1="163.0" x2="249" y2="163.0" stroke="#2a78d6" stroke-width="2"/><polygon points="258,163.0 248,157.5 248,168.5" fill="#2a78d6"/><text x="232.0" y="154.0" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="11" font-weight="600" fill="#2a78d6" text-anchor="middle">реалы</text>
+<rect x="262" y="134" width="230" height="58" rx="7" fill="#FFFFFF" stroke="#2a78d6" stroke-width="1.7"/><text x="377.0" y="161.75" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="middle">NRA иностранного клиента</text><text x="377.0" y="179.75" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="11" fill="#52514e" text-anchor="middle">счёт в Бразилии</text>
+<line x1="496" y1="163.0" x2="539" y2="163.0" stroke="#2a78d6" stroke-width="2"/><polygon points="548,163.0 538,157.5 538,168.5" fill="#2a78d6"/>
+<rect x="552" y="134" width="250" height="58" rx="7" fill="#FFFFFF" stroke="#2a78d6" stroke-width="1.7"/><text x="677.0" y="161.75" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="middle">Матчинг приёма и выплат</text><text x="677.0" y="179.75" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="11" fill="#52514e" text-anchor="middle">встречные потоки</text>
+<line x1="806" y1="163.0" x2="849" y2="163.0" stroke="#2a78d6" stroke-width="2"/><polygon points="858,163.0 848,157.5 848,168.5" fill="#2a78d6"/>
+<rect x="862" y="134" width="248" height="58" rx="7" fill="#FFFFFF" stroke="#2a78d6" stroke-width="1.7"/><text x="986.0" y="168.5" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="middle">IOF только на разницу</text>
+<rect x="28" y="228" width="1104" height="124" rx="10" fill="#D1FADF" stroke="#6CE9A6" stroke-width="1.3"/>
+<rect x="28" y="228" width="6" height="124" rx="3" fill="#027A48"/>
+<text x="50" y="254" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13.5" font-weight="700" fill="#027A48">СХЕМА B — без IOF вообще</text>
+<text x="430" y="254" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" fill="#52514e">запрет на расчёт в крипте связывает eFX-провайдеров, держателей NRA — нет</text>
+<rect x="50" y="276" width="152" height="58" rx="7" fill="#FFFFFF" stroke="#027A48" stroke-width="1.7"/><text x="126.0" y="310.5" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="middle">NRA</text>
+<line x1="206" y1="305.0" x2="249" y2="305.0" stroke="#027A48" stroke-width="2"/><polygon points="258,305.0 248,299.5 248,310.5" fill="#027A48"/>
+<rect x="262" y="276" width="240" height="58" rx="7" fill="#FFFFFF" stroke="#027A48" stroke-width="1.7"/><text x="382.0" y="303.75" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="middle">Лицензированный VASP</text><text x="382.0" y="321.75" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="11" fill="#52514e" text-anchor="middle">покупка крипты</text>
+<line x1="506" y1="305.0" x2="549" y2="305.0" stroke="#027A48" stroke-width="2"/><polygon points="558,305.0 548,299.5 548,310.5" fill="#027A48"/>
+<rect x="562" y="276" width="210" height="58" rx="7" fill="#FFFFFF" stroke="#027A48" stroke-width="1.7"/><text x="667.0" y="310.5" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="middle">Отправка за рубеж</text>
+<line x1="776" y1="305.0" x2="819" y2="305.0" stroke="#027A48" stroke-width="2"/><polygon points="828,305.0 818,299.5 818,310.5" fill="#027A48"/>
+<rect x="832" y="276" width="278" height="58" rx="7" fill="#FFFFFF" stroke="#027A48" stroke-width="1.7"/><text x="971.0" y="311.5" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="16" font-weight="600" fill="#0b0b0b" text-anchor="middle">IOF = 0</text>
+<text x="28" y="372" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0b0b0b">Стоимость вывода денег из Бразилии</text>
+<text x="28" y="394" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12.5" fill="#52514e">Доля от объёма. На каждых R$ 100 млн разница между крайними вариантами — R$ 3,4 млн.</text>
+<text x="224" y="447" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="end">Традиционно</text>
+<rect x="240" y="426" width="518.0" height="30" rx="4" fill="#2a78d6"/>
+<text x="772.0" y="447" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#0b0b0b">3,7%</text>
+<text x="832.0" y="447" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="11.5" fill="#52514e">0,2% спред + 3,5% IOF</text>
+<text x="224" y="493" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="end">INTEX</text>
+<rect x="240" y="472" width="280.0" height="30" rx="4" fill="#2a78d6"/>
+<text x="534.0" y="493" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#0b0b0b">2,0%</text>
+<text x="594.0" y="493" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="11.5" fill="#52514e">их компания в США с MTL-лицензией, NRA в Intex Bank</text>
+<text x="224" y="539" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="end">CALIZA</text>
+<rect x="240" y="518" width="42.0" height="30" rx="4" fill="#2a78d6"/>
+<text x="296.0" y="539" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#0b0b0b">0,3%</text>
+<text x="356.0" y="539" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="11.5" fill="#52514e">обычные коммерческие банки</text>
+<line x1="240" y1="420" x2="240" y2="554" stroke="#E3E1DA" stroke-width="1.5"/>
+<rect x="28" y="574" width="1104" height="56" rx="8" fill="#FEF0C7" stroke="#FEC84B" stroke-width="1.3"/>
+<text x="50" y="597" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#B54708">До того как пойдёт объём — письменное заключение по IOF от Pinheiro Neto.</text>
+<text x="50" y="616" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" fill="#52514e">Они на ретейнере с 5 октября и ещё ничего не спрошено. Бразильская компания под надзором BACEN.</text>
+</svg>
