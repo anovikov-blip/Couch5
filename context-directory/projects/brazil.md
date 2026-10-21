@@ -1,6 +1,6 @@
 # Projeto Brasil — Brazil project
 
-Last updated: 2026-10-07
+Last updated: 2026-10-21
 Owner: Andrey Novikov · Entity: Unlimit Brasil (authorised payment institution,
 collecting for foreign merchants)
 
@@ -18,10 +18,13 @@ answer
 | 3 | Banco Genial — crypto merchants dropped · own VASP licence or umbrella | `[!]` | **30 Oct 2026** | Legal opinion on the PSAV perimeter · Ebury thread already open |
 | 4 | Additional FX banks | `[~]` | — | Approach Braza, Ebury, Ouribank, BS2 |
 | 5 | eFX — declare the service in Unicad | `[!]` | **30 Oct 2026** | Pinheiro Neto engaged 5 Oct — confirm Unicad is in scope |
-| 6 | Non-resident accounts (NRA/CNR) — five banks stalled; **re-approach with the Hong Kong entity** | `[!]` | — | Confirm what the HK MSO licence permits, then put it to all five |
+| 6 | Non-resident accounts — **first one opens at Ebury this week**; re-approach the rest with the Hong Kong entity | `[!]` | — | Confirm the Ebury NRA, then put the HK MSO licence to the others |
 | 7 | Genial concentration — ~80% of approved volume at a sanctioned bank | `[!]` | — | Put a current number on the exposure |
 | 8 | **Pix Direto (Celcoin)** — own file | `[!]` | — | Break the contract deadlock; order the RSFN link |
 | 9 | **Banco Rendimento — eFX + NRA** — own file | `[!]` | — | Return the onboarding pack; present the Hong Kong entity |
+| 10 | **Card acquiring for foreign merchants** — UN Brazil IP cannot onboard them | `[!]` new | — | Design the bypass; UN PSP Brasil no longer carries this |
+| 11 | **NRA + IOF optimisation** — netting, crypto route, INTEX, CALIZA | `[!]` new | — | First NRA opens at Ebury this week; get tax counsel on the structures |
+| 12 | **VASP — first filing window closes 30 Oct** | `[!]` | **30 Oct 2026** | Own licence (USD 6m capital) or licence-as-a-service. No defined second window |
 
 ### Related project files
 
@@ -34,6 +37,46 @@ this page depend on them.
 | **`projects/pix-direct.md`** | **Celcoin** — moving from Pix Indireto to **Pix Direto**, making Unlimit a direct participant in the SPI with its own Conta PI. Contract at R$ 0.012 per transaction, the RSFN connection, RTM and Embratel, certificates | **This is the real fix for §2.** Direct participation removes Dock/BPP from the chain entirely. The contract is stuck in a deadlock and the network link has not been ordered |
 | **`projects/rendimento-efx.md`** | **Banco Rendimento** — eFX onboarding opened 4 Sep, pack unreturned, three follow-ups unanswered. Also offers CCNR | Candidate for **both §4 and §6**, and the cleanest place to test whether the Hong Kong MSO licence passes the third-party-flows test, since they have refused us nothing |
 
+
+## What changed — 21 October
+
+Four things moved at once. This supersedes parts of §2, §3 and §6 below; where
+they disagree, this section is right.
+
+**1 · eFX is now a regulated-only activity.** Until Res. 561 took effect,
+**eFX** — accepting payments for foreign merchants, or paying out to them — could
+be done by regulated *and* unregulated companies. That is why our structure
+worked with **UN PSP Brasil** carrying part of the flow. It no longer does.
+Only regulated entities may perform eFX.
+
+> **Note the vocabulary.** *eFX* is not *FX*. eFX is the specific regulated
+> service of collecting for, or paying out to, foreign merchants. Several
+> earlier notes in this file used the two loosely.
+
+**The flow as it now has to run:** **UN Brazil IP** receives Pix — through Dock
+or directly — and sends the money **immediately** to a dedicated account at a
+bank authorised for FX. **Funds no longer rest in Dock for a second.** We are
+opening that dedicated account at **both Genial and BTG**. The next step is to
+have Pix land in the dedicated accounts directly, not via a sweep.
+
+**Two consequences:**
+- **UN PSP Brasil drops out of the main flow.** Contracts papered around it need
+  revisiting — including the CSA-02 CrossBorder IP–PSP Brasil / PSP Uruguai
+  signed on 30 September.
+- **Card acquiring for foreign merchants has no home.** UN Brazil IP cannot
+  onboard foreign merchants itself. A bypass has to be designed. New §10.
+
+**2 · The NRA route is live and it changes the economics.** First NRA in Brazil
+for our Mexican company is being opened by **Ebury this week**. See §11 — this
+is now the most commercially significant item on the page.
+
+**3 · Crypto: the first filing window closes 30 October and there is no second
+date.** Own VASP licence means **USD 6m of paid-in capital**. The alternative is
+licence-as-a-service with a holder. Rewritten in §3.
+
+**4 · Two inbound proposals to cut IOF** — from **INTEX** and **CALIZA**. §11.
+
+---
 
 **Three of these are the same problem wearing different clothes.** Genial will
 not take conversion funds from Dock/BPP because BPP is not eFX-authorised (§2).
@@ -129,7 +172,13 @@ whether we also use Datavalid (a separate product, separate contract).
 > **BPP**, the payment institution Dock acquired in 2021 — bank code 301, a
 > direct participant in the SPI. Everything below replaces that section.
 
-### The flow, as it runs today
+> **Superseded in part — see "What changed" above.** The target flow is now
+> settled: UN Brazil IP receives Pix and sends it to a dedicated account at an
+> FX-authorised bank immediately, with nothing resting at Dock. Dedicated
+> accounts are being opened at **both Genial and BTG**. What follows is the
+> history of how it broke, which is still worth having.
+
+### The flow, as it ran until October
 
 1. We collect by **Pix as an indirect participant**, through **Dock / BPP**.
 2. Collections land in the **BPP Pix account (72467-9)**.
@@ -281,6 +330,38 @@ directly in BTG at all; and what Travelex's written position is.
 settling eFX operations between the Brazilian provider and its counterpart
 abroad. Genial withdrew the product because the regulation closed it. Any other
 bank is under the same rule, so shopping the same flow around will not work.
+
+### What the rule is actually for
+
+This matters for predicting what the regulator does next. For about a year,
+Chinese operators and our competitors used **eFX settled in crypto as a way
+around IOF**. The new regime is aimed at two things at once: regulating virtual
+asset activity, and **closing that IOF-avoidance channel**. Read §11 with that
+in mind — the structures there are attractive precisely because they sit in the
+space the regulator has just finished narrowing.
+
+### The hard facts, updated 21 October
+
+| | |
+|---|---|
+| **Own licence — capital** | **USD 6m paid in.** (Earlier research in this file quoted R$ 9.2m intermediação / R$ 13m with custody / up to R$ 37.2m. The USD 6m figure corresponds to the upper end. Confirm the exact modality and amount with counsel.) |
+| **Filing window** | **First window closes 30 October 2026.** There is **no published second window** — the next opens only once those who filed by 30 October have been processed. Missing it is not a slipped deadline; it is an indefinite wait |
+| **Serving foreign crypto merchants** | A Brazilian payment company may provide crypto-purchase services **only to VASPs licensed in Brazil**, and **may not accept payments in favour of foreign crypto companies** that hold no Brazilian VASP licence |
+| **Customer onboarding** | If a Brazilian wants to buy crypto, the licensed VASP must **open an account for them and complete full KYC** before buying or selling. There is no light-touch route |
+| **The obvious gap** | A Brazilian can still buy crypto abroad on their own card — their bank withholds **3.5% IOF** |
+
+### So the options narrow to two
+
+To serve foreign crypto merchants that do not hold a Brazilian VASP licence:
+
+1. **Obtain our own VASP licence** — USD 6m capital, filed before 30 October.
+2. **Licence-as-a-service** — partner with a holder. This is the model I
+   described earlier as "PSAV as a service"; the market name is
+   **License as a service**, and it is established.
+
+Andrey's read, which I think is right: new workaround structures will appear
+after 30 October, but **the market does not yet know how to do this legally** —
+apart from the NRA route in §11.
 
 **The decision in front of us is not yet "licence or umbrella".** It is a prior
 question: **is Unlimit Brasil inside the PSAV perimeter at all?**
@@ -521,7 +602,7 @@ As of Thiago's last written update, 4 August 2026, plus what has happened since.
 | **Ouribank** | UNL BR / group | **Declined 21 Aug** on licence grounds; Cayman-branch alternative offered | Their flow document never came. Also: merchant details Ouribank asked for were never sent — Thiago followed up with Dimitris and Ellen twice |
 | **Travelex** | UNL MX | Stalled since 16 June | PoA proving Andrey can represent UNL MX **in Brazil**, apostilled and sworn-translated. Lorena Chávez confirmed no such PoA exists expressly. Compliance call promised "next week at the latest" on 16 June — nothing since. A new relationship manager took over in early August and promised a final position on the UNL MX NRA "by the end of the week" |
 | **Genial** | UNL MX | **Legal opinion sent — ball with Genial** | Resolved. **Jorge Luna at KNP** (jluna@knp.com.mx) produced it; Enrique Pina sent proof of payment 29 Sep and Jorge confirmed receipt. The opinion has now gone to Genial. Next step is chasing Genial's review, not finding a lawyer |
-| **Ebury** | — | Proposal with you since 30 July | Documentation and commercial proposal were sent to you for review. **Still with you, ten weeks** |
+| **Ebury** | UNL MX | **OPENING THIS WEEK — the first one to land** | After five stalled onboardings, Ebury is opening the first Brazilian NRA for the Mexican company. Everything in §11 depends on it. Confirm it opened and what it permits |
 | **Braza** | — | Call on the proposed flow | You and Dimitris are in a WhatsApp group with them |
 
 ### Two questions from Thiago that were never answered
@@ -711,6 +792,126 @@ the bank since August.
 
 ---
 
+## 10 · Card acquiring for foreign merchants — the bypass
+
+**New, and nobody owns it yet.**
+
+When UN PSP Brasil carried part of the flow, foreign merchants could be
+onboarded to it. Now that eFX is regulated-only and UN PSP Brasil has dropped
+out of the main flow, we have a gap: **UN Brazil IP cannot onboard foreign
+merchants itself.**
+
+Pix collection is solved — it runs through UN Brazil IP into a dedicated
+FX-bank account. **Card acquiring for foreign merchants is not.**
+
+What needs deciding:
+
+1. **What is the bypass?** Options worth testing: a domestic acquirer that can
+   onboard the foreign merchant directly with us as gateway; a
+   merchant-of-record structure; routing card volume to an entity outside
+   Brazil; or onboarding through a licensed partner the way §3 contemplates for
+   crypto.
+2. **What happens to existing foreign merchants on cards?** They are live
+   today. Whatever the answer, there is a migration, and it has a date.
+3. **Which contracts have to be re-papered?** UN PSP Brasil sits in signed
+   agreements — including **CSA-02 CrossBorder IP–PSP Brasil / PSP Uruguai**,
+   signed 30 September, three weeks before this changed.
+
+*Open:* who owns this — it is not currently on anyone's list. Thiago for the
+legal shape, Anastasiya for the product, and it needs a decision before the
+first merchant notices.
+
+---
+
+## 11 · NRA and the IOF question — the biggest commercial item on this page
+
+**First NRA in Brazil, for our Mexican company, is being opened by Ebury this
+week.** After five stalled onboardings since August, this is the one that
+landed. See §6 for why the others stalled and what the Hong Kong entity changes.
+
+### Why an NRA matters beyond having an account
+
+An NRA held in Brazil by a foreign regulated company opens two things that are
+closed to us as a Brazilian eFX provider.
+
+**Route A — net the opposing flows.** UN Brazil IP collects Pix and sends reais
+to the NRA of its foreign client in Brazil. Holding reais, that company can
+match incoming collections against outgoing payouts and **pay IOF only on the
+net difference.**
+
+**Route B — no IOF at all.** Regulated companies performing eFX are **forbidden
+to settle in crypto**. **Companies holding an NRA are not.** So an NRA holder
+can go to a Brazilian-licensed VASP, buy crypto, and send it abroad — and on
+Andrey's reading this carries **no IOF**.
+
+### The numbers, and why this is not a rounding error
+
+| Route | All-in cost |
+|---|---|
+| Traditional | **~3.7%** — 0.2% spread + 3.5% IOF |
+| INTEX proposal | **2.0%** — roughly half |
+| CALIZA proposal | **0.3%** — 3.4pp better than traditional, 1.7pp better than INTEX |
+
+On any serious Brazilian volume this is the largest single lever in the
+country. Every R$ 100m of flow is R$ 3.4m at stake between the extremes.
+
+### The two inbound proposals
+
+Netting only works if there is **enough inbound money into Brazil** to net
+against. If our own flows are not large enough, both of these supply the other
+side.
+
+**INTEX.** Set up a US company, obtained a **US MTL licence** for it, and opened
+an **NRA for that company at INTEX in Brazil**. We collect Pix in Brazil, insert
+their US company into our chain, send collections to its NRA at INTEX, and they
+remit to us in USD for **2%**.
+> *Worth knowing:* INTEX is **Intex Bank Banco de Câmbio S.A.** — the renamed
+> **Treviso Corretora de Câmbio**, a licensed banco de câmbio, Av. Paulista
+> 1842, CNPJ 02.992.317/0001-87. Already in our FX bank research. A real
+> licensed institution, not a broker fronting one.
+
+**CALIZA.** Same shape, but through ordinary commercial banks rather than their
+own, at **0.3%**.
+
+CALIZA is dramatically cheaper. That difference is itself the question: ask both
+to explain precisely which legs carry IOF and which do not, and why the answers
+differ by 1.7 percentage points.
+
+### Before any of this carries volume — one flag, stated once
+
+Routes A and B and both proposals are structures whose purpose is to reduce or
+remove IOF. Netting on an NRA is ordinary treasury practice and NRAs are
+regulated instruments, so none of this is exotic. But three things sit together
+and should be looked at together rather than separately:
+
+- Andrey's own reading is that the new crypto regime exists in part **to close
+  the eFX-via-crypto IOF channel** (§3). Route B uses a different door into the
+  same room.
+- **Unlimit Brasil is under active BACEN supervision** right now — reports,
+  CCS, Patrimônio de Referência, safeguarding, a SISCOM process.
+- **Pinheiro Neto is already retained** and has not yet been asked anything.
+
+So: get a written opinion on the IOF treatment of Routes A and B and of the
+INTEX and CALIZA structures **before** volume moves, not after. This is not a
+reason to slow down — it is the cheapest way to go fast, because the alternative
+is discovering the answer during a supervision cycle.
+
+### What to do now
+
+1. **Ebury NRA — confirm it opens this week** and what it permits.
+2. **Re-paper the contracts** so the NRA leg is properly documented. Andrey
+   flagged this as urgent.
+3. **Sign a Brazilian VASP provider** for Route B.
+4. **Put Routes A and B, INTEX and CALIZA to Pinheiro Neto** in one instruction.
+5. **Ask INTEX and CALIZA the same five questions** and compare the answers side
+   by side — especially why the pricing differs so much.
+
+*Open:* our own inbound volume into Brazil, which decides whether we need a
+counterparty for netting at all; whether the Mexican entity or the Hong Kong
+entity should hold which NRA; what CALIZA actually is and who regulates it.
+
+---
+
 ## Open questions register
 
 | # | Question | Who answers | Blocks |
@@ -733,6 +934,14 @@ the bank since August.
 | 15a | Which Hong Kong entity exactly, and what does the MSO licence permit and exclude? | Jesse Yu / HK legal |
 | 15b | Does an MSO licence satisfy the Brazilian banks' third-party-flows test? | The five banks |
 | 15c | Do we standardise on one applicant entity across all five banks, or choose per bank? | Andrey |
+| 16a | What is the card-acquiring bypass for foreign merchants, and who owns it? | Thiago / Anastasiya | §10 |
+| 16b | Which signed contracts name UN PSP Brasil and must be re-papered? | Thiago Genda | §10 |
+| 16c | Did the Ebury NRA open this week, and what does it permit? | Ebury / Thiago | §11 |
+| 16d | Written IOF opinion on NRA netting, the crypto route, INTEX and CALIZA | Pinheiro Neto | §11 |
+| 16e | Why is CALIZA 0.3% where INTEX is 2.0% — which legs carry IOF in each? | CALIZA / INTEX | §11 |
+| 16f | What is our own inbound volume into Brazil to net against? | Finance / Dimitris | §11 |
+| 16g | What is CALIZA, and who regulates it? | — | §11 |
+| 16h | Own VASP licence at USD 6m, or licence-as-a-service — decide before 30 Oct | Andrey / Kirill | §3 |
 | 16 | Will Travelex accept conversion funds routed from BPP after 1 Oct? Get it in writing | Leandro Reis / new RM | §2 |
 | 17 | Does Dock intend to apply for eFX authorisation before 31 May 2027? | Alan Paiva, Dock | §2 |
 | 18 | Can Pix collections land directly in BTG, bypassing Dock? | Dock + BTG + product | §2 |

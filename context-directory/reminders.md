@@ -1,6 +1,6 @@
 # Reminders
 
-*Last updated: 2026-10-06*
+*Last updated: 2026-10-21*
 
 Urgency: `[!]` urgent · `[~]` soon · `[ ]` no deadline set
 
@@ -213,6 +213,29 @@ Johnpulle at Sibos. Newsletters, bank notifications and event invitations not li
     notice to Deinf/CSTI, homologation testing. Pull the BCB *Roteiro* v1.11, *Manual
     de Redes do SFN* v9.3 and *DRT-Redes* v9.4 before ordering anything.
   - **This is the real fix for the Dock/BPP problem in the Brazil file (§2).**
+
+- [!] **Brazil — four regulatory and commercial changes, 21 Oct**
+  - Full detail in `context-directory/projects/brazil.md`, section "What changed — 21 October"
+  - **eFX is regulated-only now.** UN Brazil IP receives Pix and sends it straight to a
+    dedicated account at an FX-authorised bank — nothing rests at Dock. Opening those
+    accounts at **both Genial and BTG**. **UN PSP Brasil drops out of the main flow.**
+  - **[!] Card acquiring for foreign merchants has no home.** UN Brazil IP cannot
+    onboard them itself. A bypass has to be designed and **nobody owns this yet**.
+    Contracts naming UN PSP Brasil need re-papering, including CSA-02 signed 30 Sep.
+  - **[!] First NRA opens at Ebury this week**, for the Mexican company. Unlocks two
+    things: netting opposing flows and paying IOF only on the difference; and — because
+    NRA holders are not bound by the crypto settlement ban that binds eFX providers —
+    buying crypto through a licensed VASP and sending it abroad with no IOF.
+    **Re-paper the contracts, sign a Brazilian VASP provider.**
+  - **IOF economics: traditional ~3.7% (0.2% spread + 3.5% IOF) · INTEX 2.0% ·
+    CALIZA 0.3%.** Every R$ 100m of flow is R$ 3.4m between the extremes. INTEX is
+    Intex Bank, the renamed Treviso — a real banco de câmbio. Ask both why the pricing
+    differs by 1.7pp.
+  - **Get a written IOF opinion from Pinheiro Neto before volume moves** — they are
+    retained and have been asked nothing. The crypto regime exists partly to close the
+    eFX-via-crypto IOF channel, and we are under live BACEN supervision.
+  - **VASP: first filing window closes 30 Oct and there is no published second one.**
+    Own licence is **USD 6m paid-in capital**; the alternative is licence-as-a-service.
 
 - [!] **Projeto Brasil — four workstreams, two deadlines on 30 Oct**
   - Project file: `context-directory/projects/brazil.md`
