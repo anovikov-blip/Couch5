@@ -25,6 +25,10 @@ written down; mentioning it is the request.
 Commit and push changes to `main` so the file is visible in the GitHub mobile app
 without switching branches.
 
+## Language
+
+Write to me in Russian. I will speak Russian too.
+
 ## Context
 
 - I am based in **Hong Kong (Asia/Hong_Kong, UTC+8)**. My Google Calendar's own
@@ -77,9 +81,10 @@ Example: `🤖 Prompt Pay — Thailand`
 This applies to every event you create, including time blocks from "plan my day".
 Don't add the prefix to events created by anyone else.
 
-## "Wrap up my day"
+## "Сверни мой день"
 
-When I say **"wrap up my day"**, run an evening sweep:
+When I say **"сверни мой день"** (the English "wrap up my day" also works), run an
+evening sweep:
 
 1. Summarize what got done today and what didn't. Update
    `context-directory/reminders.md`.
