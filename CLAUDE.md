@@ -38,9 +38,10 @@ Write to me in Russian. I will speak Russian too.
 - My meetings span Hong Kong, Europe, Brazil and Mexico. When proposing a time block,
   say what the local time is on the other end if the work involves calling someone.
 
-## "Plan my day"
+## "Спланируй мой день"
 
-When I say **"plan my day"**, do this in order:
+When I say **"спланируй мой день"** (the English "plan my day" also works), do this
+in order:
 
 1. Check my calendar for that day (Hong Kong day boundaries).
 2. Read `context-directory/reminders.md`.
@@ -78,7 +79,7 @@ at a glance which events you created.
 
 Example: `🤖 Prompt Pay — Thailand`
 
-This applies to every event you create, including time blocks from "plan my day".
+This applies to every event you create, including time blocks from "спланируй мой день".
 Don't add the prefix to events created by anyone else.
 
 ## "Сверни мой день"
